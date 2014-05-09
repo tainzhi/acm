@@ -1,1 +1,1 @@
-#a record of my acm code trace
+# record of my acm trace
