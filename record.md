@@ -17,7 +17,19 @@
 include <stdlib.h>
 
 int *result = (int *)malloc(sizeof(int) * 4);
+free(result);       /*free the memory*/
 ```
 
 
+###九度OJ
+#####1179
+阶乘, 需要使用`long long int`, 输出为`printf("%lld", n)
 
+#####1181
+- 插入排序InsertSort
+- 选择排序SelectSort
+- 冒泡排序BubbleSort
+- 希尔排序ShellSort
+- 快速排序QuickSort
+- 堆排序StackSort
+- 归并排序MergeSort
