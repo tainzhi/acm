@@ -1,6 +1,22 @@
 ## record of my acm trace
 
 
+###Auto compile file and auto input data
+add following to your `$VIMRUNTIM/vimrc`
+```
+" make
+set makeprg=g++\ -Wall\ \ %
+nmap <silent> <F6> :make<CR><CR>
+nmap <silent> <F7> :call Do_Make()<CR>
+function! Do_Make()
+    execute "!./a.out < a.in"
+endfunction
+```
+
+- `<F6>`: compile current file, then get a.out
+- `<F7>`: input a.in into a.out
+- `a.in`: test data
+
 ###test.sh usage
 >>####test.sh
 
