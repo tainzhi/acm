@@ -7,9 +7,12 @@
 int main() {
     char str[MAX_SIZE];
     int i, j, count;
+    int len;
     while (fgets(str, MAX_SIZE, stdin) != NULL) {
+        len = strlen(str);
         i = j = count = 0;
-        /* puts(str); */
+        if (len == 1 && str[0] == '\n')
+            break;
         while (str[i] != '.' && i < (int)strlen(str)) {
             if (str[i] >= 'a' && str[i] <= 'z') {
                 /* printf("-"); */
@@ -36,7 +39,7 @@ int main() {
         } else if (j == 0 && count > 0)
             printf("\n");
     }
+    /* printf("*******\n"); */
     return 0;
 }
-
 
