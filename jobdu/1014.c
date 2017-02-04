@@ -4,23 +4,24 @@
 
 #define MAX_SIZE 1010
 
-struct student {
+typedef struct {
     char id[30];
     int grade;
-} students[MAX_SIZE];
+} student;
+student students[MAX_SIZE];
 
 int Compare(const void *a, const void *b) {
-    if (((struct student *)a)->grade < ((struct student *)b)->grade) {
+    if (((student *)a)->grade < ((student *)b)->grade) {
         return 1;
-    } else if (((struct student *)a)->grade > (((struct student *)b)->grade)) {
+    } else if (((student *)a)->grade > (((student *)b)->grade)) {
         return -1;
     } else {
-        return strcmp(((struct student *)a)->id, ((struct student *)b)->id);
+        return strcmp(((student *)a)->id, ((student *)b)->id);
     }
 }
 
 void Swap(int i, int j) {
-    struct student temp;
+    student temp;
     strcpy(temp.id, students[j].id);
     temp.grade = students[j].grade;
     strcpy(students[j].id, students[i].id);
@@ -66,7 +67,7 @@ int main()
             if (students[i].grade >= g)
                 better++;
         }
-        qsort(students, n, sizeof(struct student), Compare);
+        qsort(students, n, sizeof(student), Compare);
         printf("%d\n", better);
         for (i = 0; i < better; i++) {
             printf("%s %d\n",  students[i].id, students[i].grade);
