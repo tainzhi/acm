@@ -2,6 +2,14 @@
 #include <stdlib.h>
 #include <string.h>
 
+int Strlen(char *str) {
+    int i = 0;
+    while (str[i] != '\n' && str[i] != '\0')
+        ++i;
+    str[i] = '\0';
+    return i;
+}
+
 int Prioriy[4][4] = {
     /* row: stack top; column: stack in */
     /* -1: <, 0: =, 1: > */
@@ -68,17 +76,15 @@ int main()
     int i, j, k, ind;
     double oter1, oter2;
     while (fgets(str, 205, stdin)) {
-        /* if ((strlen(str) == 1 && str[0] == '0') || (str[0] == '0' && str[1] == '\n')) { */
-        if ((strlen(str) == 1 && str[0] == '\n') || (strlen(str) == 2 && str[0] == '0')) {
+        if (Strlen(str) == 0) {
             break;
-        }
-        else {
+        } else if (str[0] == '0') {
+            break;
+        } else {
             j = 0;
             k = 0;
             top = 0;
             stop = 0;
-            /* printf("strlen=%d\n", (int)strlen(str)); */
-            /* puts(str); */
             for (i = 0; str[i] != 0; i++) {
                 if (str[i] == ' ') {
                     if (j != 0) {

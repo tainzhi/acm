@@ -4,16 +4,24 @@
 
 #define MAX_SIZE 10000
 
+int Strlen(char *str) {
+    int len = 0;
+    while (str[len] != '\n' && str[len] != '\0')
+        ++len;
+    str[len] = '\0';
+    return len;
+}
+
 int main() {
     char str[MAX_SIZE];
     int i, j, count;
     int len;
     while (fgets(str, MAX_SIZE, stdin) != NULL) {
-        len = strlen(str);
+        len = Strlen(str);
         i = j = count = 0;
-        if (len == 1 && str[0] == '\n')
+        if (len == 0)
             break;
-        while (str[i] != '.' && i < (int)strlen(str)) {
+        while (str[i] != '.' && i < len ) {
             if (str[i] >= 'a' && str[i] <= 'z') {
                 /* printf("-"); */
                 j++;

@@ -10,7 +10,7 @@ typedef struct StructTreeNode {
 int Strlen(char *str) {
     int len = 0;
     while (str[len] != '\n' && str[len] != '\0')
-        len++;
+        ++len;
     return len;
 }
 
@@ -30,7 +30,7 @@ TreeNodePoint InsertTree(TreeNodePoint root, char *str, int index) {
 
 TreeNodePoint CreateTree(char *str, int len) {
     TreeNodePoint root = NULL;
-    for (int i = 0; i < len; i++)
+    for (int i = 0; i < len; ++i)
         root = InsertTree(root, str, i);
     return root;
 }
@@ -65,12 +65,9 @@ int main() {
     while (scanf("%d", &n) != EOF) {
         if (n == 0)
             break;
-        fgets(ori_str, 15, stdin);
-        /* scanf("%s", ori_str); */
-        printf("original string=%s", ori_str);
+        scanf("%s", ori_str);
         ori_len = Strlen(ori_str);
         while (n--) {
-            /* fgets(tar_str, 15, stdin); */
             scanf("%s\n", tar_str);
             tar_len = Strlen(tar_str);
             if (ori_len != tar_len) {

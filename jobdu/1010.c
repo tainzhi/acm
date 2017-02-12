@@ -2,6 +2,14 @@
 #include <string.h>
 #include <ctype.h>
 
+int Strlen(char *str) {
+    int i = 0;
+    while (str[i] != '\n' && str[i] != '\0')
+        i++;
+    str[i] = '\0';
+    return i;
+}
+
 int Convert(char *number) {
     int result;
     if (strcmp("zero", number) == 0)
@@ -38,16 +46,15 @@ int main()
     char onenumber[30], twonumber[30];
     int len, i, tag1, tag2, ope1, ope2, sindex1, sindex2, tagindex, onezero, twozero;
     while (fgets(array, 50, stdin) != NULL) {
-        len = strlen(array);
-        /* printf("len=%d\n", len); */
-        if (len == 1 && array[0] == '\n')
+        len = Strlen(array);
+        if (len == 0)
             break;
-        /* puts(array); */
         tag1 = tag2 = 0;
         sindex1 = sindex2 = 0;
         onezero = twozero = 0;
         tagindex = 0; // 0 begin; 1 char; 2 space; 3 +; 4 =
-        for (i = 0; array[i] != '0' && array[i] != '\n'; i++) {
+        ope1 = ope2 = 0;
+        for (i = 0; array[i] != '\0'; ++i) {
             if (isalpha(array[i])) {
                 if (tag1 == 0) {
                     onenumber[sindex1++] = array[i];
