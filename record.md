@@ -33,3 +33,44 @@ free(result);       /*free the memory*/
 - 快速排序QuickSort
 - 堆排序StackSort
 - 归并排序MergeSort
+
+#####1014
+`fgets`换行符`\n`使得停止读取，同时把换行符'\n'作为有效字符添加到字串末尾，同时添加字串结束符`\0`
+```
+#include <stdio.h>
+
+char buffer[100];
+while (fgets(buffer, 100, stdin) != NULL) {
+    if ((int)strlen(buffer) == 1 && buffer[1] =='\n')
+        break;
+}
+
+`gets()`在c99废除，因为未制定大小，容易导致溢出错误
+```
+
+自我实现两个关键字的排序：two keys, 如果当key２相同时，比较key1, 那么分别先对key1排序，然后再对key2排序
+
+#####1186
+闰年leap year判断, 还是common year; 闰年2月有29
+```
+bool IsLeapYear(int year) {
+    if ((year % 400 == 0) || (year % 100 != 0 && year % 4 == 0))
+        return  true;
+    else
+        return false;
+}
+```
+
+输出4位, 高位不足补零, 比如1输出0001
+```
+printf("%04d", year);
+```
+
+####1009
+`scanf("%d", &n)`与`fgets(str, 100, stdin)`不能同时使用, 因为scanf不会读到`\n`, 而fgets会读到`\n`.
+
+推荐`scan("%d", &n)`与`scanf("%s", str)`
+
+`puts(str)`会在字符串末尾输出`\n`换行符
+
+二叉搜索树建树

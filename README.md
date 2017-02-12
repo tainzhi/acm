@@ -17,6 +17,21 @@ endfunction
 - `<F7>`: input a.in into a.out
 - `a.in`: test data
 
+###sizeof()
+```
+int nums[10];
+printf("%d %d", (int)sizeof(nums), (int)sizeof(int) * 10);
+```
+the result is `40 40`, that means that `sizeof(nums)` equals `sizeof(int) * 10`
+
+###memset()
+```
+int nums[10];
+memset(nums, 0, sizeof(nums));  //set every number in nums to 0
+memset(nums, -1, sizeof(nums)); //set every number in nums to -1
+memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
+```
+
 ###test.sh usage
 >>####test.sh
 
