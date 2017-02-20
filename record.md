@@ -21,11 +21,11 @@
 ##jobdu
 ---
 ####[jobdu1000](http://ac.jobdu.com/problem.php?pid=1000) oj入门简单题
-####[jobdu1009](http://ac.jobdu.com/problem.php?pid=1009) 二叉搜索树
-####[jobdu1027](http://ac.jobdu.com/problem.php?pid=1027) 欧拉回路
-####[jobdu1172](http://ac.jobdu.com/problem.php?pid=1172) 哈弗曼树和小根堆
-####[jobdu1186](http://ac.jobdu.com/problem.php?pid=1186) 闰年
-####[jobdu11201](http://ac.jobdu.com/problem.php?pid=11201) 二叉排序树/BST Binary Search Tree
+####[jobdu1009](http://ac.jobdu.com/problem.php?pid=1009) 二叉搜索树/BST Binary Search Tree
+####[jobdu1027](http://ac.jobdu.com/problem.php?pid=1027) 欧拉回路 Eulerian Path
+####[jobdu1172](http://ac.jobdu.com/problem.php?pid=1172) 哈弗曼树和小根堆 Huffeman Tree and min-heaps/max-heaps
+####[jobdu1186](http://ac.jobdu.com/problem.php?pid=1186) 闰年 Leap Year
+####[jobdu11201](http://ac.jobdu.com/problem.php?pid=11201) 二叉排序树/BST Binary Sort Tree
 ####[jobdu1341](http://ac.jobdu.com/problem.php?pid=1341) 单源最短路径Dijkstra
 
 
