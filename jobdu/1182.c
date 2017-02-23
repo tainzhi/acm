@@ -6,48 +6,51 @@
 
 int Strlen(char *str) {
     int len = 0;
-    while (str[len] != '\n' && str[len] != '\0')
+    while (str[len] != '\n' && str[len] != '\0' && str[len])
         ++len;
-    str[len] = '\0';
     return len;
 }
 
-int main() {
-    char str[MAX_SIZE];
-    int i, j, count;
-    int len;
-    while (fgets(str, MAX_SIZE, stdin) != NULL) {
-        len = Strlen(str);
-        i = j = count = 0;
-        if (len == 0)
-            break;
-        while (str[i] != '.' && i < len ) {
-            if (str[i] >= 'a' && str[i] <= 'z') {
-                /* printf("-"); */
-                j++;
-            }
-            else {
-                /* printf("*"); */
-                if (j != 0) {
-                    count++;
-                    if (count == 1)
-                        printf("%d", j);
-                    else 
-                        printf(" %d", j);
-                    j = 0;
-                }
-            }
-            i++;
-        }
-        if (j != 0) {
-            /* printf("__count=%d___", count); */
-            if (count > 1)
-                printf(" ");
-            printf("%d\n", j);
-        } else if (j == 0 && count > 0)
-            printf("\n");
-    }
-    /* printf("*******\n"); */
-    return 0;
+int Scanf(char *buffer, char *input, int index) {
+    int count = 0;
+    while (input[index] != '\0' && input[index] != '\n' && input[index] != ' ')
+        buffer[count++] = input[index++];
+    return count;
 }
 
+char string[MAX_SIZE];
+char buffer[MAX_SIZE];
+int number[MAX_SIZE];
+
+int main() {
+    while (fgets(buffer, MAX_SIZE, stdin) != NULL) {
+        int length = Strlen(buffer);
+        int number_count = 0;
+        if (length == 0)
+            break;
+        else {
+            for (int i = 0; i < MAX_SIZE; ++i)
+                number[i] = 0;
+            --length; //remove "."
+            /* printf("length=%d\n", length); */
+            buffer[length] = '\0';
+            int buffer_index = 0, index;
+            number_count = 0;
+            while (buffer_index < length) {
+                index = Scanf(string, buffer, buffer_index);
+                /* printf("index=%d\n", index); */
+                if (index > 0) {
+                    buffer_index += index;
+                    number[number_count++] = index;
+                } else {
+                    ++buffer_index;
+                }
+            }
+            printf("%d", number[0]);
+            for (int i = 1; i < number_count; ++i)
+                printf(" %d", number[i]);
+            printf("\n");
+        }
+    }
+    return 0;
+}

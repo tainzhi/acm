@@ -6,7 +6,14 @@
 int nums[MAX_SIZE];
 
 int compare(const void *a, const void *b) {
-    return *(int *)a - *(int *)b;
+    int n1 = *(int *)a;
+    int n2 = *(int *)b;
+    if (n1 < n2)
+        return -1;
+    else if (n1 == n2)
+        return 0;
+    else
+        return 1;
 }
 
 int main() {
@@ -20,10 +27,9 @@ int main() {
             if (j == 0 || nums[j - 1] != nums[i])
                 nums[j++] = nums[i];
         }
-        /* for (int i = 0; i < 1 && j > 0; i++) */
-        /*     printf("%d", nums[i]); */
-        for (int i = 0; i < j; i++)
-            printf("%d ", nums[i]);
+        printf("%d", nums[0]);
+        for (int i = 1; i < j; i++)
+            printf(" %d", nums[i]);
         printf("\n");
     }
     return 0;

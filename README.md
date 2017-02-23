@@ -79,9 +79,15 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 ####[jobdu1000](http://ac.jobdu.com/problem.php?pid=1000) oj入门简单题
 ####[jobdu1008](http://ac.jobdu.com/problem.php?pid=1008) 单元最短路劲Dijkstra,使用邻接列表
 ####[jobdu1009](http://ac.jobdu.com/problem.php?pid=1009) 二叉搜索树/BST Binary Search Tree
+####[jobdu1012](http://ac.jobdu.com/problem.php?pid=1012) 并查集
+####[jobdu1017](http://ac.jobdu.com/problem.php?pid=1017) 最小生成树Kruskal
+####[jobdu1018](http://ac.jobdu.com/problem.php?pid=1018) 简单题, 使用堆来统计
+####[jobdu1019](http://ac.jobdu.com/problem.php?pid=1019) 逆波兰表达式和一行多个单词的输入
 ####[jobdu1027](http://ac.jobdu.com/problem.php?pid=1027) 欧拉回路 Eulerian Path
+####[jobdu1041](http://ac.jobdu.com/problem.php?pid=1041) 简单排序然后去重题, 但要注意输出末尾无空格
 ####[jobdu1172](http://ac.jobdu.com/problem.php?pid=1172) 哈弗曼树和小根堆 Huffeman Tree and min-heaps/max-heaps
 ####[jobdu1176](http://ac.jobdu.com/problem.php?pid=1176) 完全二叉树第n层的节点数
+####[jobdu1182](http://ac.jobdu.com/problem.php?pid=1182) 简单题, 但要使用fgets
 ####[jobdu1184](http://ac.jobdu.com/problem.php?pid=1184) 由先序遍历字符串生成二叉树
 ####[jobdu1185](http://ac.jobdu.com/problem.php?pid=1185) 排序
 ####[jobdu1186](http://ac.jobdu.com/problem.php?pid=1186) 闰年 Leap Year
