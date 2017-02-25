@@ -1,17 +1,22 @@
 #include <iostream>
 #include <algorithm>
 #include <string>
+#include <cstring>
+#include <cstdio>
 
 using namespace std;
 
 int main() {
     string in;
-    sort(in, in + in.length());
-    while (cin>>in) {
+    char str[10];
+    // cout<<"in="<<in<<endl;
+    while (scanf("%s", str) != EOF) {
+        int len = strlen(str);
+        sort(str, str + len);
         do {
-            cout<<in<<endl;
-        } while (next_permutation(in, in + end));
-
+            printf("%s\n", str);
+        } while (next_permutation(str, str + len));
+        printf("\n");
     }
     return 0;
 }
