@@ -1,10 +1,11 @@
 #Info
-some notes about my acm training and problems solutions
+some notes about my acm training and problems Solutions
 - [Notes](#notes)
 - [Solutions](#solutions)
     - [jobdu](#jobdu)
     - [hdoj](#hdoj)
     - [poj](#poj)
+    - [leetcode](#leetcode)
 
 
 ##notes
@@ -102,3 +103,8 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 ##poj
 ---
 ####[poj3461](http://poj.org/problem?id=3461) KMP
+
+##leetcode
+---
+[leetcode1](https://leetcode.com/problems/two-sum/?tab=Description) Two Sum
+[leetcode147](https://leetcode.com/problems/insertion-sort-list/?tab=Description) Insertion Sort List
