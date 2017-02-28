@@ -104,6 +104,7 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 ####[jobdu1347](http://ac.jobdu.com/problem.php?pid=1347) 最小生成树Kruskal+并查集
 ####[jobdu1369](http://ac.jobdu.com/problem.php?pid=1369) 全排列 Permutate
 ####[jobdu1406](http://ac.jobdu.com/problem.php?pid=1406) 最短路劲条数, Dijkstra
+####[jobdu1411](http://ac.jobdu.com/problem.php?pid=1411) Dijkstra求最短回路
 ####[jobdu1417](http://ac.jobdu.com/problem.php?pid=1417) 最小生成树, Kruskal, STL map<>标记点的id
 ####[jobdu1448](http://ac.jobdu.com/problem.php?pid=1448) 拓扑排序
 
