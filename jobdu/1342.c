@@ -8,11 +8,12 @@ int top;
 
 int main() {
     char array[MAX_SIZE];
-    int count, i;
+    int count, i, len ;
     while (scanf("%s", array) != EOF) {
         top = 0;
         count = 0;
-        for (i = 0; i < (int)(strlen(array)); i++) {
+        len = strlen(array);
+        for (i = 0; i < len; i++) {
             if (array[i] == '(') {
                 stack[++top] = array[i];
             } else if (array[i] == ')' && top >0 ) {

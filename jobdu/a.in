@@ -1,2 +1,17 @@
-abc
-DABC
+5 10
+aa bb 2
+aa bb 3
+aa bb 1
+aa cccc 3
+bb d 4
+aa d 2
+bb cccc 1
+d e 3
+aa e 2
+cccc e 5
+5 5
+aa cccc 3
+aa d 2
+d e 3
+aa e 2
+cccc e 5

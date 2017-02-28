@@ -65,6 +65,8 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 
 ##hdoj
 ----
+####[HDU1421](https://vjudge.net/problem/HDU-1421) 动态规划
+
 ####2204
 指数为素数,dfs实现容斥原理,只有因为2^(2*3*5*7*)=2*60大于10^18,所以只用枚举
 60以内至多三种素数的组合情况
@@ -73,7 +75,6 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 自我实现两个关键字的排序：two keys, 如果当key２相同时，比较key1, 那么分别先对key1排序，然后再对key2排序
 
 
-二叉搜索树建树
 
 ##jobdu
 ---
@@ -84,8 +85,12 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 ####[jobdu1017](http://ac.jobdu.com/problem.php?pid=1017) 最小生成树Kruskal
 ####[jobdu1018](http://ac.jobdu.com/problem.php?pid=1018) 简单题, 使用堆来统计
 ####[jobdu1019](http://ac.jobdu.com/problem.php?pid=1019) 逆波兰表达式和一行多个单词的输入
+####[jobdu1024](http://ac.jobdu.com/problem.php?pid=1024) 最小生成树Prim minium spanning tree求最小值, 注意重复边的输入
 ####[jobdu1027](http://ac.jobdu.com/problem.php?pid=1027) 欧拉回路 Eulerian Path
+####[jobdu1028](http://ac.jobdu.com/problem.php?pid=1028) 最小生成树, 并查集
 ####[jobdu1041](http://ac.jobdu.com/problem.php?pid=1041) 简单排序然后去重题, 但要注意输出末尾无空格
+####[jobdu1120](http://ac.jobdu.com/problem.php?pid=1120) 全排列, 用c++ STL 的next_permutation(str, str + len)实现,不要使用string, 会TLE
+####[jobdu1140](http://ac.jobdu.com/problem.php?pid=1140) 八皇后Eight Queens Puzzle
 ####[jobdu1172](http://ac.jobdu.com/problem.php?pid=1172) 哈弗曼树和小根堆 Huffeman Tree and min-heaps/max-heaps
 ####[jobdu1176](http://ac.jobdu.com/problem.php?pid=1176) 完全二叉树第n层的节点数
 ####[jobdu1182](http://ac.jobdu.com/problem.php?pid=1182) 简单题, 但要使用fgets
@@ -94,9 +99,12 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 ####[jobdu1186](http://ac.jobdu.com/problem.php?pid=1186) 闰年 Leap Year
 ####[jobdu1201](http://ac.jobdu.com/problem.php?pid=1201) 二叉排序树/BST Binary Sort Tree
 ####[jobdu1341](http://ac.jobdu.com/problem.php?pid=1341) 单源最短路径Dijkstra,使用邻接矩阵
+####[jobdu1342](http://ac.jobdu.com/problem.php?pid=1342) 栈, 匹配的括号数
 ####[jobdu1343](http://ac.jobdu.com/problem.php?pid=1343) 弗洛伊德变种Floyd
+####[jobdu1347](http://ac.jobdu.com/problem.php?pid=1347) 最小生成树Kruskal+并查集
 ####[jobdu1369](http://ac.jobdu.com/problem.php?pid=1369) 全排列 Permutate
 ####[jobdu1406](http://ac.jobdu.com/problem.php?pid=1406) 最短路劲条数, Dijkstra
+####[jobdu1417](http://ac.jobdu.com/problem.php?pid=1417) 最小生成树, Kruskal, STL map<>标记点的id
 
 
 
