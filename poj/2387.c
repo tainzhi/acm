@@ -1,17 +1,17 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdbool.h>
 
 #define MAX_SIZE 1010
-#define MAX_INT 10e10
+#define MAX_INT 100000000
 
 int matrix[MAX_SIZE][MAX_SIZE];
-int final[MAX_SIZE], dist[MAX_SIZE], pre[MAX_SIZE];
+int final[MAX_SIZE], dist[MAX_SIZE];
 
 void Dijkstra(int start, int nodes) {
     for (int i = 1; i <= nodes; ++i) {
         final[i] = 0;
         dist[i] = matrix[start][i];
-        pre[i] = start;
     }
     final[start] = 1;
     dist[start] = 0;

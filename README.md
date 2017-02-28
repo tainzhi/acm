@@ -105,11 +105,13 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 ####[jobdu1369](http://ac.jobdu.com/problem.php?pid=1369) 全排列 Permutate
 ####[jobdu1406](http://ac.jobdu.com/problem.php?pid=1406) 最短路劲条数, Dijkstra
 ####[jobdu1417](http://ac.jobdu.com/problem.php?pid=1417) 最小生成树, Kruskal, STL map<>标记点的id
+####[jobdu1448](http://ac.jobdu.com/problem.php?pid=1448) 拓扑排序
 
 
 
 ##poj
 ---
+####[poj2367](http://poj.org/problem?id=2367) 简单拓扑排序
 ####[poj3461](http://poj.org/problem?id=3461) KMP
 
 ##leetcode
