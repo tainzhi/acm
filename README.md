@@ -65,6 +65,8 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 
 ##hdoj
 ----
+####[HDU1241](https://vjudge.net/problem/HDU-1241) 深度有限搜索DFS
+####[HDU1312](https://vjudge.net/problem/HDU-1312) 深度有限搜索DFS
 ####[HDU1421](https://vjudge.net/problem/HDU-1421) 动态规划
 
 ####2204
@@ -81,6 +83,7 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 ####[jobdu1000](http://ac.jobdu.com/problem.php?pid=1000) oj入门简单题
 ####[jobdu1008](http://ac.jobdu.com/problem.php?pid=1008) 单元最短路劲Dijkstra,使用邻接列表
 ####[jobdu1009](http://ac.jobdu.com/problem.php?pid=1009) 二叉搜索树/BST Binary Search Tree
+####[jobdu1011](http://ac.jobdu.com/problem.php?pid=1011) Easy动态规划, 最大连续子序列
 ####[jobdu1012](http://ac.jobdu.com/problem.php?pid=1012) 并查集
 ####[jobdu1017](http://ac.jobdu.com/problem.php?pid=1017) 最小生成树Kruskal
 ####[jobdu1018](http://ac.jobdu.com/problem.php?pid=1018) 简单题, 使用堆来统计
@@ -89,6 +92,8 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 ####[jobdu1027](http://ac.jobdu.com/problem.php?pid=1027) 欧拉回路 Eulerian Path
 ####[jobdu1028](http://ac.jobdu.com/problem.php?pid=1028) 最小生成树, 并查集
 ####[jobdu1041](http://ac.jobdu.com/problem.php?pid=1041) 简单排序然后去重题, 但要注意输出末尾无空格
+####[jobdu1067](http://ac.jobdu.com/problem.php?pid=1067) 简单题, 求阶乘, 递归
+####[jobdu1073](http://ac.jobdu.com/problem.php?pid=1073) 简单题, 递归打印杨辉三角
 ####[jobdu1120](http://ac.jobdu.com/problem.php?pid=1120) 全排列, 用c++ STL 的next_permutation(str, str + len)实现,不要使用string, 会TLE
 ####[jobdu1140](http://ac.jobdu.com/problem.php?pid=1140) 八皇后Eight Queens Puzzle
 ####[jobdu1172](http://ac.jobdu.com/problem.php?pid=1172) 哈弗曼树和小根堆 Huffeman Tree and min-heaps/max-heaps
@@ -98,12 +103,14 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 ####[jobdu1185](http://ac.jobdu.com/problem.php?pid=1185) 排序
 ####[jobdu1186](http://ac.jobdu.com/problem.php?pid=1186) 闰年 Leap Year
 ####[jobdu1201](http://ac.jobdu.com/problem.php?pid=1201) 二叉排序树/BST Binary Sort Tree
+####[jobdu1205](http://ac.jobdu.com/problem.php?pid=1205) Easy动态规划, int64
 ####[jobdu1341](http://ac.jobdu.com/problem.php?pid=1341) 单源最短路径Dijkstra,使用邻接矩阵
 ####[jobdu1342](http://ac.jobdu.com/problem.php?pid=1342) 栈, 匹配的括号数
 ####[jobdu1343](http://ac.jobdu.com/problem.php?pid=1343) 弗洛伊德变种Floyd
 ####[jobdu1347](http://ac.jobdu.com/problem.php?pid=1347) 最小生成树Kruskal+并查集
 ####[jobdu1369](http://ac.jobdu.com/problem.php?pid=1369) 全排列 Permutate
 ####[jobdu1406](http://ac.jobdu.com/problem.php?pid=1406) 最短路劲条数, Dijkstra
+####[jobdu1408](http://ac.jobdu.com/problem.php?pid=1408) Easy动态规划
 ####[jobdu1411](http://ac.jobdu.com/problem.php?pid=1411) Dijkstra求最短回路
 ####[jobdu1417](http://ac.jobdu.com/problem.php?pid=1417) 最小生成树, Kruskal, STL map<>标记点的id
 ####[jobdu1448](http://ac.jobdu.com/problem.php?pid=1448) 拓扑排序
