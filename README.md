@@ -3,7 +3,7 @@ some notes about my acm training and problems Solutions
 - [Notes](#notes)
 - [Solutions](#solutions)
     - [jobdu](#jobdu)
-    - [hdoj](#hdoj)
+    - [hdu](#hdu)
     - [poj](#poj)
     - [leetcode](#leetcode)
 
@@ -63,11 +63,13 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 
 
 
-##hdoj
+##hdu
 ----
-####[HDU1241](https://vjudge.net/problem/HDU-1241) 深度有限搜索DFS
-####[HDU1312](https://vjudge.net/problem/HDU-1312) 深度有限搜索DFS
+####[HDU1241](https://vjudge.net/problem/HDU-1241) 深度优先搜索DFS
+####[HDU1312](https://vjudge.net/problem/HDU-1312) 深度优先搜索DFS
 ####[HDU1421](https://vjudge.net/problem/HDU-1421) 动态规划
+####[HDU3068](https://vjudge.net/problem/HDU-3068) 最长回文串Manacher算法
+####[HDU4109](https://vjudge.net/problem/HDU-4109) 关键路径AOE(Activity On Edge)
 
 ####2204
 指数为素数,dfs实现容斥原理,只有因为2^(2*3*5*7*)=2*60大于10^18,所以只用枚举
@@ -84,6 +86,7 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 ####[jobdu1008](http://ac.jobdu.com/problem.php?pid=1008) 单元最短路劲Dijkstra,使用邻接列表
 ####[jobdu1009](http://ac.jobdu.com/problem.php?pid=1009) 二叉搜索树/BST Binary Search Tree
 ####[jobdu1011](http://ac.jobdu.com/problem.php?pid=1011) Easy动态规划, 最大连续子序列
+####[jobdu1077](http://ac.jobdu.com/problem.php?pid=1077) Easy动态规划, 最大连续子序列, 包含负数, 使用int64
 ####[jobdu1012](http://ac.jobdu.com/problem.php?pid=1012) 并查集
 ####[jobdu1017](http://ac.jobdu.com/problem.php?pid=1017) 最小生成树Kruskal
 ####[jobdu1018](http://ac.jobdu.com/problem.php?pid=1018) 简单题, 使用堆来统计
@@ -94,6 +97,7 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 ####[jobdu1041](http://ac.jobdu.com/problem.php?pid=1041) 简单排序然后去重题, 但要注意输出末尾无空格
 ####[jobdu1067](http://ac.jobdu.com/problem.php?pid=1067) 简单题, 求阶乘, 递归
 ####[jobdu1073](http://ac.jobdu.com/problem.php?pid=1073) 简单题, 递归打印杨辉三角
+####[jobdu1112](http://ac.jobdu.com/problem.php?pid=1112) Easy动态规划, 最长非增非连续子序列
 ####[jobdu1120](http://ac.jobdu.com/problem.php?pid=1120) 全排列, 用c++ STL 的next_permutation(str, str + len)实现,不要使用string, 会TLE
 ####[jobdu1140](http://ac.jobdu.com/problem.php?pid=1140) 八皇后Eight Queens Puzzle
 ####[jobdu1172](http://ac.jobdu.com/problem.php?pid=1172) 哈弗曼树和小根堆 Huffeman Tree and min-heaps/max-heaps
@@ -121,6 +125,7 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 ---
 ####[poj2367](http://poj.org/problem?id=2367) 简单拓扑排序
 ####[poj3461](http://poj.org/problem?id=3461) KMP
+####[poj3974](http://poj.org/problem?id=3974) 最长回文串Manacher算法
 
 ##leetcode
 ---
