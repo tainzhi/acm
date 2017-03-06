@@ -123,6 +123,7 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 
 ##poj
 ---
+####[poj1236](http://poj.org/problem?id=1236) 有向图的联通分量与联通图的缩点
 ####[poj2367](http://poj.org/problem?id=2367) 简单拓扑排序
 ####[poj3461](http://poj.org/problem?id=3461) KMP
 ####[poj3974](http://poj.org/problem?id=3974) 最长回文串Manacher算法

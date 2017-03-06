@@ -18,7 +18,7 @@ Vertex graph[1010];
 
 int in_stack[1010],in_top;
 int out_stack[1010], out_top;
-int ve[1010], vl[1010];
+int ve[1010];
 int indegree[1010];
 
 int main() {
@@ -28,7 +28,7 @@ int main() {
         for (int i = 0; i < n; ++i) 
             graph[i].first = NULL;
         memset(indegree, 0, sizeof(indegree));
-        memset(vl, 0, sizeof(vl));
+        memset(ve, 0, sizeof(ve));
         for (int i = 0; i < m; ++i) {
             scanf("%d %d %d", &u, &v, &t);
             Edge *edge = (Edge *)malloc(sizeof(Edge));
@@ -39,11 +39,11 @@ int main() {
             ++indegree[v];
         }
         in_top = out_top = 0;
-        // Get vl[0...n-1]
+        // Get ve[0...n-1]
         for (int i = 0; i < n; ++i)
             if (indegree[i] == 0) {
                 in_stack[++in_top] = i;
-                vl[i] = 1;
+                ve[i] = 1;
             }
         Edge *e_point;
         while (in_top > 0) {
@@ -51,15 +51,15 @@ int main() {
             out_stack[++out_top] = u;
             for (e_point = graph[u].first; e_point; e_point = e_point->next) {
                 v = e_point->adjacent;
-                vl[v] = MAX(vl[v], vl[u] + e_point->distance);
+                ve[v] = MAX(ve[v], ve[u] + e_point->distance);
                 if ((--indegree[v]) == 0)
                     in_stack[++in_top] = v;
             }
         }
         int max_time = -1;
         for (int i = 0; i < n; ++i)
-            if (max_time < vl[i])
-                max_time = vl[i];
+            if (max_time < ve[i])
+                max_time = ve[i];
         printf("%d\n", max_time);
     }
     return 0;
