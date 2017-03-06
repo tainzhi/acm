@@ -6,7 +6,6 @@
 #define MAX_SIZE 105
 
 int matrix[MAX_SIZE][MAX_SIZE];
-int new_matrix[MAX_SIZE][MAX_SIZE];
 int final[MAX_SIZE];
 int visit[MAX_SIZE];
 int indegree[MAX_SIZE];
@@ -60,19 +59,11 @@ int main() {
         }
         memset(indegree, 0, sizeof(indegree));
         memset(outdegree, 0, sizeof(outdegree));
-        memset(new_matrix, 0, sizeof(new_matrix));
         for (int i = 1; i <= n; ++i) {
             for (int j = 1; j <= n; ++j) {
                 if (matrix[i][j] == 1 && visit[i] != visit[j]) {
-                    new_matrix[visit[i]][visit[j]] = 1;
-                }
-            }
-        }
-        for (int i = 1; i <= component; ++i) {
-            for (int j = 1; j <= component; ++j) {
-                if (new_matrix[i][j] == 1) {
-                    ++indegree[j];
-                    ++outdegree[i];
+                    ++indegree[visit[j]];
+                    ++outdegree[visit[i]];
                 }
             }
         }

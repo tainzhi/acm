@@ -70,6 +70,7 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 ####[HDU1421](https://vjudge.net/problem/HDU-1421) 动态规划
 ####[HDU3068](https://vjudge.net/problem/HDU-3068) 最长回文串Manacher算法
 ####[HDU4109](https://vjudge.net/problem/HDU-4109) 关键路径AOE(Activity On Edge)
+####[HDU4635](https://vjudge.net/problem/HDU-4635) 强连通分量Targan
 
 ####2204
 指数为素数,dfs实现容斥原理,只有因为2^(2*3*5*7*)=2*60大于10^18,所以只用枚举
