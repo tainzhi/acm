@@ -6,6 +6,7 @@ some notes about my acm training and problems Solutions
     - [hdu](#hdu)
     - [poj](#poj)
     - [leetcode](#leetcode)
+    - [UVA](#UVA)
 
 
 ##notes
@@ -133,4 +134,6 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 ##leetcode
 ---
 ####[leetcode1](https://leetcode.com/problems/two-sum/?tab=Description) Two Sum
-####[leetcode147](https://leetcode.com/problems/insertion-sort-list/?tab=Description) Insertion Sort List
+
+###UVA
+####[uva10325](https://vjudge.net/problem/UVA-10325) 容斥原理, 使用long long
