@@ -14,15 +14,15 @@ int main() {
     for (int i = 1; i < MAX_SIZE; ++i)
         for (int j = 1; j <= i; ++j)
             combination[i][j] = (combination[i - 1][j] + combination[i - 1][j - 1] + MODULE) % MODULE;
-    for (int i = 1; i <= 5; ++i) {
-        printf("%d :", i);
-        for (int j = 0; j <= i; ++j)
-            printf(" %3d ", combination[i][j]);
-        printf(";");
-        for (int j = i + 1; j <= 10; ++j)
-            printf(" %3d ", combination[i][j]);
-        printf("\n");
-    }
+    /* for (int i = 1; i <= 5; ++i) { */
+    /*     printf("%d :", i); */
+    /*     for (int j = 0; j <= i; ++j) */
+    /*         printf(" %3d ", combination[i][j]); */
+    /*     printf(";"); */
+    /*     for (int j = i + 1; j <= 10; ++j) */
+    /*         printf(" %d ", combination[i][j]); */
+    /*     printf("\n"); */
+    /* } */
     int ncase, n, m, k;
     scanf("%d", &ncase);
     for (int i = 1 ; i <= ncase; ++i) {
