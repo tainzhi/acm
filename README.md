@@ -143,5 +143,6 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 #### [leetcode1](https://leetcode.com/problems/two-sum/?tab=Description) Two Sum
 
 ### UVA
+---
 #### [uva10325](https://vjudge.net/problem/UVA-10325) 容斥原理, 使用long long
 #### [uva11806](https://vjudge.net/problem/UVA-11806) 容斥原理
