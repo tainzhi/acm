@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 #include <string.h>
 
 #define MAX_SIZE 110
