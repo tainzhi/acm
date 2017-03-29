@@ -138,6 +138,7 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 #### [poj2478](http://poj.org/problem?id=2478) 欧拉函数
 #### [poj2773](http://poj.org/problem?id=2773) 容斥原理+二分法
 #### [poj3461](http://poj.org/problem?id=3461) KMP
+#### [poj3904](http://poj.org/problem?id=3904) 容斥原理
 #### [poj3974](http://poj.org/problem?id=3974) 最长回文串Manacher算法
 
 ## leetcode
