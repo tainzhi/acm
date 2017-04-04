@@ -1,62 +1,41 @@
+/*******************************************************************************
+* File     : Count Relations.c
+* Author   : tainzhi
+* Mail     : qfq61@qq.com
+* Created  : 2017-04-04 11:28:44
+* Modified : 2017-04-04 11:28:44
+*******************************************************************************/
+
 #include <stdio.h>
+#include <string.h>
 #include <stdlib.h>
 
-typedef unsigned long long ULL;
-const ULL module = 100000007;
+typedef long long ll;
+ll MOD = 100000007;
 
-ULL Pow(ULL base, ULL exp)
-{
-    if (exp == 0)
-        return 1;
-    if (exp == 1)
-        return base;
-    ULL temp = Pow(base, exp/2) % module;
-    if (exp % 2)
-        return (((temp * temp) % module) * base) % module;
-    else
-        return (temp * temp) % module;
+ll power(ll a, ll b) {
+    ll ans = 1, mida = a;
+    while (b) {
+        if (b&1)
+            ans = (ans * mida) % MOD;
+        mida = (mida * mida) % MOD;
+        b = b >> 1;
+    }
+    return ans;
 }
 
-ULL R1(ULL n2, ULL n3)
-{
-    ULL answer = ((n3 - (2 * n2))%module + 1 + module) % module;
-    while (answer < 0)
-        answer += module;
-    answer %= module;
-    if (answer % 2)
-        return ((answer + module)/2)%module;
-    else
-        return answer / 2;
-}
-
-ULL R2(ULL n2, ULL n3)
-{
-    ULL answer = ((n2*(n2 + 3))%module - (3*n3)%module-1 + module) % module;
-    while (answer < 0)
-        answer += module;
-    answer %= module;
-    if (answer % 2)
-        return ((answer + module)/2)%module;
-    else
-        return answer / 2;
-}
-
-int main()
-{
-    int T;
-    scanf("%d", &T);
-    ULL n;
-    while (T--)
-    {
-        scanf("%llu", &n);
-        if (n == 1)
-        {
-            printf("0 0\n");
-            continue;
-        }
-        ULL n2 = Pow(2, n), n3 = Pow(3, n);
-        printf("%llu %llu\n", R1(n2, n3), R2(n2, n3));
+int main() {
+    ll t, n;
+    scanf("%lld", &t);
+    while (--t >= 0) {
+        scanf("%lld", &n);
+        /* ll ans1 = ((power(3, n) - 2 * power(2, n) + 1) / 2 + MOD) % MOD; */
+        /* ll ans2 = ((power(4, n) - 3 * power(3, n) + 3 * power(2, n) - 1) / 2 + MOD) % MOD; */
+        ll inv2 = power(2, MOD - 2);
+        ll ans1 = (power(3, n) + MOD - power(2, n + 1) + 1) % MOD * inv2 % MOD;
+        ll ans2 = (power(4, n) + MOD - power(3, n + 1) + (3 * power(2, n) % MOD) - 1) % MOD * inv2 % MOD;
+        printf("%lld %lld\n", ans1, ans2);
     }
     return 0;
 }
-
+        

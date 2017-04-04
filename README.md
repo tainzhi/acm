@@ -9,6 +9,7 @@ some notes about my acm training and problems Solutions
     - [poj](#poj)
     - [leetcode](#leetcode)
     - [UVA](#UVA)
+    - [Codechef](%codechef)
 
 
 ## notes
@@ -149,3 +150,6 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 ---
 #### [uva10325](https://vjudge.net/problem/UVA-10325) 容斥原理, 使用long long
 #### [uva11806](https://vjudge.net/problem/UVA-11806) 容斥原理
+
+## Codechef
+#### [COUNTREL](https://www.codechef.com/problems/COUNTREL)
