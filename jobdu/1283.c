@@ -3,7 +3,7 @@
 * Author   : tainzhi
 * Mail     : qfq61@qq.com
 * Created  : 2017-04-06 15:29:54
-* Modified : 2017-04-06 18:16:02
+* Modified : 2017-04-06 18:23:34
 *******************************************************************************/
 
 #include <stdio.h>
@@ -22,11 +22,12 @@ int Strlen(char *str) {
 int main() {
     char str[MAX_SIZE];
     char alpha[26];
-    /* while (fgets(str, MAX_SIZE, stdin)) { */
-    while (scanf("%s", str) != EOF) {
+    while (fgets(str, MAX_SIZE, stdin)) {
+    /* while (scanf("%s", str) != EOF) { */
         int len = Strlen(str);
-        /* if (len == 0) */
-        /*     break; */
+        /* printf("len=%d\n", len); */
+        if (len == 0)
+            break;
         memset(alpha, 0, sizeof(alpha));
         for (int i = 0; i < len; ++i) {
             int current = str[i] - 'A';
