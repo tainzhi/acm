@@ -47,7 +47,7 @@ void Targan(int u, int _father) {
             father[v] = u;
             Targan(v, u);
             low[u] = MIN(low[u], low[v]);
-            if (low[v] >= depth[u])
+            if (low[v] > depth[u])
                 ++bridges;
             else
                 Union(u, v);
@@ -112,7 +112,6 @@ int main() {
         bridges = 0;
         for (int i = 1; i <= n; ++i) {
             if (!depth[i]) {
-                father[i] = i;
                 Targan(i, i);
             }
         }

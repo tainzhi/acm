@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-
 #include <stdlib.h>
 
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
