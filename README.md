@@ -123,6 +123,8 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 #### [jobdu1342](http://ac.jobdu.com/problem.php?pid=1342) 栈, 匹配的括号数
 #### [jobdu1343](http://ac.jobdu.com/problem.php?pid=1343) 弗洛伊德变种Floyd
 #### [jobdu1347](http://ac.jobdu.com/problem.php?pid=1347) 最小生成树Kruskal+并查集
+#### [jobdu1348](http://ac.jobdu.com/problem.php?pid=1348) 归并排序求逆序对,结果是long long int
+#### [jobdu1349](http://ac.jobdu.com/problem.php?pid=1349) 二分法
 #### [jobdu1369](http://ac.jobdu.com/problem.php?pid=1369) 全排列 Permutate
 #### [jobdu1406](http://ac.jobdu.com/problem.php?pid=1406) 最短路劲条数, Dijkstra
 #### [jobdu1408](http://ac.jobdu.com/problem.php?pid=1408) Easy动态规划
