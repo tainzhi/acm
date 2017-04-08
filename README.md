@@ -119,6 +119,7 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 #### [jobdu1205](http://ac.jobdu.com/problem.php?pid=1205) Easy动态规划, int64
 #### [jobdu1214](http://ac.jobdu.com/problem.php?pid=1214) [Medium]状态dp
 #### [jobdu1283](http://ac.jobdu.com/problem.php?pid=1283) [Easy]字符串
+#### [jobdu1335](http://ac.jobdu.com/problem.php?pid=1335) [Easy]BFS
 #### [jobdu1341](http://ac.jobdu.com/problem.php?pid=1341) 单源最短路径Dijkstra,使用邻接矩阵
 #### [jobdu1342](http://ac.jobdu.com/problem.php?pid=1342) 栈, 匹配的括号数
 #### [jobdu1343](http://ac.jobdu.com/problem.php?pid=1343) 弗洛伊德变种Floyd
