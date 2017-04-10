@@ -129,6 +129,7 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 #### [jobdu1350](http://ac.jobdu.com/problem.php?pid=1350) [Easy]二叉树建树, 求深度
 #### [jobdu1351](http://ac.jobdu.com/problem.php?pid=1351) [Easy]位运算
 #### [jobdu1369](http://ac.jobdu.com/problem.php?pid=1369) 全排列 Permutate
+#### [jobdu1404](http://ac.jobdu.com/problem.php?pid=1404) BFS求有条件的最短路径
 #### [jobdu1406](http://ac.jobdu.com/problem.php?pid=1406) 最短路劲条数, Dijkstra
 #### [jobdu1408](http://ac.jobdu.com/problem.php?pid=1408) Easy动态规划
 #### [jobdu1411](http://ac.jobdu.com/problem.php?pid=1411) Dijkstra求最短回路
