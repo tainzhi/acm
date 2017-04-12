@@ -72,6 +72,7 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 
 ## hdu
 ----
+#### [HDU1176](https://vjudge.net/problem/HDU-1176) [Easy]动态规划
 #### [HDU1241](https://vjudge.net/problem/HDU-1241) 深度优先搜索DFS
 #### [HDU1312](https://vjudge.net/problem/HDU-1312) 深度优先搜索DFS
 #### [HDU1421](https://vjudge.net/problem/HDU-1421) 动态规划

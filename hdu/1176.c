@@ -43,8 +43,8 @@ int main() {
         int max_cake = -1;
         for (int i = 0; i< 11; ++i) {
             /* printf("dp x=%d cake=%d\n", i, dp[T][i]); */
-            if (max_cake < dp[T][i])
-                max_cake = dp[T][i];
+            if (max_cake < dp[max_time][i])
+                max_cake = dp[max_time][i];
         }
         printf("%d\n", max_cake);
     }
