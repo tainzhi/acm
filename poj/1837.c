@@ -5,7 +5,7 @@
 #define NATURAL_NUM 26
 #define DIFF 7600
 
-int dp[NATURAL_NUM][HOOK_NUM][DIFF];
+int dp[NATURAL_NUM][2*DIFF];
 int hooks[HOOK_NUM];
 int natural[NATURAL_NUM];
 
@@ -16,28 +16,25 @@ int main() {
             scanf("%d", &hooks[i]);
         for (int i = 1; i <= g; ++i)
             scanf("%d", &natural[i]);
-        for (int i = 0; i < g; ++i)
-            for (int j = 0; j < c; ++j)
+        for (int i = 0; i <= g; ++i)
                 for (int k = 0; k < DIFF * 2; ++k)
-                    dp[i][j][k] = 0;
+                    dp[i][k] = 0;
         for (int i = 1; i <= c; ++i)
-            dp[0][i][7500] = 1;
+            dp[0][7500] = 1;
         int current;
         for (int i = 1; i <= g; ++i)
             for (int j = 1; j <= c; ++j) {
                 current = natural[i] * hooks[j];
-                for (int k = 0; k < DIFF * 2; ++k) {
-                    for (int j = 1; j <= c; ++j)
-                        dp[i][j][k] = dp[i-1][j][k-current];
-                }
+                int low = 0, high = 2 * DIFF;
+                if (current > 0)
+                    low = current;
+                else
+                    high = 2  * DIFF + current;
+                for (int k = low; k < high; ++k)
+                    dp[i][k] += dp[i - 1][k - current];
             }
-        int solution = 0;
-        for (int i = 1; i <= c; ++i)
-            solution += dp[g][i][7500];
+        int solution = dp[g][7500];
         printf("%d\n", solution);
     }
     return 0;
 }
-
-
-
