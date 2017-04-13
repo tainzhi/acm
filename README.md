@@ -77,6 +77,7 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 #### [HDU1312](https://vjudge.net/problem/HDU-1312) 深度优先搜索DFS
 #### [HDU1421](https://vjudge.net/problem/HDU-1421) 动态规划
 #### [HDU3068](https://vjudge.net/problem/HDU-3068) 最长回文串Manacher算法
+#### [HDU4105](https://vjudge.net/problem/HDU-4105) [Medium]动态规划
 #### [HDU4109](https://vjudge.net/problem/HDU-4109) 关键路径AOE(Activity On Edge)
 #### [HDU4635](https://vjudge.net/problem/HDU-4635) 强连通分量Targan
 
