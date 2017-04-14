@@ -10,6 +10,7 @@ some notes about my acm training and problems Solutions
     - [leetcode](#leetcode)
     - [UVA](#UVA)
     - [Codechef](#codechef)
+    - [SPOJ](#spoj)
 
 
 ## notes
@@ -166,3 +167,6 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 
 ## Codechef
 #### [COUNTREL](https://www.codechef.com/problems/COUNTREL) [Medium]容斥原理+数论模运算
+
+## SPOJ
+#### [ASSIGN-Assignments](http://www.spoj.com/problems/ASSIGN/en/) [Easy]状态DP, 使用滚动数组和位来表示状态
