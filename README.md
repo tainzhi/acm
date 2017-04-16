@@ -145,6 +145,7 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 
 ## poj
 ---
+#### [poj1185](http://poj.org/problem?id=1185) [Medium]状态DP
 #### [poj1236](http://poj.org/problem?id=1236) 有向图的联通分量与联通图的缩点
 #### [poj1837](http://poj.org/problem?id=1837) [Medium]动态规划
 #### [poj2186](http://poj.org/problem?id=2186) 有向图的联通分量与联通图的缩点
