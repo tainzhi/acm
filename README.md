@@ -8,7 +8,7 @@ some notes about my acm training and problems Solutions
     - [hdu](#hdu)
     - [poj](#poj)
     - [leetcode](#leetcode)
-    - [UVA](#UVA)
+    - [UVA](#uva)
     - [Codechef](#codechef)
     - [SPOJ](#spoj)
 
