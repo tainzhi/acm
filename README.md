@@ -77,19 +77,12 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 #### [HDU1241](https://vjudge.net/problem/HDU-1241) 深度优先搜索DFS
 #### [HDU1312](https://vjudge.net/problem/HDU-1312) 深度优先搜索DFS
 #### [HDU1421](https://vjudge.net/problem/HDU-1421) 动态规划
+#### [HDU2204](https://vjudge.net/problem/HDU-1421) 容斥原理
 #### [HDU3068](https://vjudge.net/problem/HDU-3068) [Medium]最长回文串Manacher算法
 #### [HDU3696](https://vjudge.net/problem/HDU-3696) DFS+拓扑排序(或者DFS)
 #### [HDU4105](https://vjudge.net/problem/HDU-4105) [Medium]动态规划
 #### [HDU4109](https://vjudge.net/problem/HDU-4109) 关键路径AOE(Activity On Edge)
 #### [HDU4635](https://vjudge.net/problem/HDU-4635) 强连通分量Targan
-
-#### 2204
----
-指数为素数,dfs实现容斥原理,只有因为2^(2*3*5*7*)=2*60大于10^18,所以只用枚举
-60以内至多三种素数的组合情况
-
-
-自我实现两个关键字的排序：two keys, 如果当key２相同时，比较key1, 那么分别先对key1排序，然后再对key2排序
 
 
 
