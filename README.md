@@ -155,6 +155,7 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 ## leetcode
 ---
 #### [leetcode1](https://leetcode.com/problems/two-sum/?tab=Description) Two Sum
+#### [leetcode530](https://leetcode.com/problems/minimum-absolute-difference-in-bst/#/description) Minimum Absolute Difference in BST
 
 ### UVA
 ---
