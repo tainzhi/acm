@@ -15,8 +15,9 @@ some notes about my acm training and problems Solutions
 - 冒泡排序
 - 快速排序，[力扣912：排序数组](https://leetcode-cn.com/problems/sort-an-array/)
 - 归并排序
-- 插入排序
+- 插入排序, 二分插入排序
 - 选择排序
+- shell排序
 
 ### 力扣leetcode-cn
 - [力扣912：排序数组](https://leetcode-cn.com/problems/sort-an-array/)
