@@ -17,13 +17,9 @@ void quickSort(vector<int>&nums, int low, int high) {
             if (j == low) break;
         }
         if (i >= j) break;
-        int temp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = temp;
+        std::swap(nums[i], nums[j]);
     }
-    int temp = nums[low];
-    nums[low] = nums[j];
-    nums[j] = temp;
+    std::swap(nums[low], nums[j]);
     quickSort(nums, low, j-1);
     quickSort(nums, j+1, high);
 }

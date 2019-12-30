@@ -14,9 +14,7 @@ vector<int> bubbleSort(vector<int> &nums) {
         // 注意不要越界，nums[iy] and nums[iy+1]
         for (vector<int>::size_type iy = 0; iy  < nums.size() - ix - 1; ++iy)
             if (nums[iy] > nums[iy +1]) {
-                int temp = nums[iy];
-                nums[iy] = nums[iy + 1];
-                nums[iy + 1] = temp;
+                std::swap(nums[iy], nums[iy + 1]);
                 swap = 1;
             }
         if (swap == 0) {

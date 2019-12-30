@@ -14,9 +14,7 @@ vector<int> selectSort(vector<int> &nums) {
                 min_index = j;
             }
         }
-        temp = nums[i];
-        nums[i] = nums[min_index];
-        nums[min_index] = temp;
+        std::swap(nums[min_index], nums[i]);
     }
     return nums;
 }
