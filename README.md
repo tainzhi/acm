@@ -21,6 +21,7 @@ some notes about my acm training and problems Solutions
 - 计数排序 counting sort
 - 基数排序 radix sort
 - 桶排序bucket sort
+- 堆排序 heap_sort
 
 ### 力扣leetcode-cn
 - [力扣912：排序数组](https://leetcode-cn.com/problems/sort-an-array/)
