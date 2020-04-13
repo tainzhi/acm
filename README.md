@@ -23,11 +23,36 @@ some notes about my acm training and problems Solutions
 - 桶排序bucket sort
 - 堆排序 heap_sort
 
+## 针对面试
+### 双指针
+- [Easy][力扣167: two sum II](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
+- [Easy][力扣633: Sum of Square Numbers](https://leetcode-cn.com/problems/sum-of-square-numbers/): 使用unsigend int; Math.sqrt剪枝
+- [Easy][力扣345: Reverse Vowels of a String](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
+- [Medidum][力扣345: Reverse Vowels of a String](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
+- [Easy][力扣88: Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/)
+- [Easy][力扣141: Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/): 双指针, 一个指针跳一步, 另一个指针跳2步, 若存在环, 则一定能相遇
+
 ### 力扣leetcode-cn
+- [力扣88: Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/)
+- [力扣141: Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/)
+- [力扣167: two sum II](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
+- [力扣345: Reverse Vowels of a String](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
+- [力扣633: Sum of Square Numbers](https://leetcode-cn.com/problems/sum-of-square-numbers/)
 - [力扣912：排序数组](https://leetcode-cn.com/problems/sort-an-array/)
 
 ## notes
 ----
+
+### compile and debug in MacOs
+```bash
+// 当前目录生成a.out可执行文件
+clang++ a.cc
+
+// 当前目录下生成可调式执行程序a.out
+clang++ -g a.cc
+// 用lldb打开a.out就可以调试了
+lldb ./a.out
+```
 
 ### Auto compile with bash
 
