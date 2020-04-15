@@ -32,12 +32,15 @@ some notes about my acm training and problems Solutions
 - [Easy][力扣88: Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/)
 - [Easy][力扣141: Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/): 双指针, 一个指针跳一步, 另一个指针跳2步, 若存在环, 则一定能相遇
 - [Medium][力扣524: Longest Word in Dictionary through Deleting](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/): 用指针判断另一个string是否是当前string的字串, 即另一个string的char与当前string的char相等, 另一个string的指针才增加直到遍历完
+### 排序
+- [Medium][力扣347. Top K Frequent Elements](https://leetcode-cn.com/problems/top-k-frequent-elements/)
 
 ### 力扣leetcode-cn
 - [力扣88: Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/)
 - [力扣141: Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/)
 - [力扣167: two sum II](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
 - [力扣345: Reverse Vowels of a String](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
+- [力扣347. Top K Frequent Elements](https://leetcode-cn.com/problems/top-k-frequent-elements/)
 - [力扣524: Longest Word in Dictionary through Deleting](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/)
 - [力扣633: Sum of Square Numbers](https://leetcode-cn.com/problems/sum-of-square-numbers/)
 - [力扣912：排序数组](https://leetcode-cn.com/problems/sort-an-array/)
