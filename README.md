@@ -34,6 +34,7 @@ some notes about my acm training and problems Solutions
 - [Medium][力扣524: Longest Word in Dictionary through Deleting](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/): 用指针判断另一个string是否是当前string的字串, 即另一个string的char与当前string的char相等, 另一个string的指针才增加直到遍历完
 ### 排序
 - [Medium][力扣347. Top K Frequent Elements](https://leetcode-cn.com/problems/top-k-frequent-elements/)
+- [Medium][力扣451. Sort Characters By Frequency](https://leetcode-cn.com/problems/sort-characters-by-frequency/): 根据char出现的频率倒序排序, 然后输出
 
 ### 力扣leetcode-cn
 - [力扣88: Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/)
@@ -44,6 +45,7 @@ some notes about my acm training and problems Solutions
 - [力扣524: Longest Word in Dictionary through Deleting](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/)
 - [力扣633: Sum of Square Numbers](https://leetcode-cn.com/problems/sum-of-square-numbers/)
 - [力扣912：排序数组](https://leetcode-cn.com/problems/sort-an-array/)
+- [力扣451. Sort Characters By Frequency](https://leetcode-cn.com/problems/sort-characters-by-frequency/)
 
 ## notes
 ----
