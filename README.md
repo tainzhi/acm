@@ -35,17 +35,19 @@ some notes about my acm training and problems Solutions
 ### 排序
 - [Medium][力扣347. Top K Frequent Elements](https://leetcode-cn.com/problems/top-k-frequent-elements/)
 - [Medium][力扣451. Sort Characters By Frequency](https://leetcode-cn.com/problems/sort-characters-by-frequency/): 根据char出现的频率倒序排序, 然后输出
+- [Medium][力扣75. Sort Colors, 三色旗排序](https://leetcode-cn.com/problems/sort-colors/): 也可以插入排序; 当然还有三色旗的特定解法
 
 ### 力扣leetcode-cn
+- [力扣75. Sort Colors](https://leetcode-cn.com/problems/sort-colors/)
 - [力扣88: Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/)
 - [力扣141: Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/)
 - [力扣167: two sum II](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
 - [力扣345: Reverse Vowels of a String](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
 - [力扣347. Top K Frequent Elements](https://leetcode-cn.com/problems/top-k-frequent-elements/)
+- [力扣451. Sort Characters By Frequency](https://leetcode-cn.com/problems/sort-characters-by-frequency/)
 - [力扣524: Longest Word in Dictionary through Deleting](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/)
 - [力扣633: Sum of Square Numbers](https://leetcode-cn.com/problems/sum-of-square-numbers/)
 - [力扣912：排序数组](https://leetcode-cn.com/problems/sort-an-array/)
-- [力扣451. Sort Characters By Frequency](https://leetcode-cn.com/problems/sort-characters-by-frequency/)
 
 ## notes
 ----
