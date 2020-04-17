@@ -43,10 +43,12 @@ some notes about my acm training and problems Solutions
 - [力扣21. Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/description/)
 - [力扣:83. Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
 - [Medium][力扣: 19. Remove Nth Node From End of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/): 双指针, 第2个指针比第一个指针先走n步, 注意边界情况
+- [Medium][力扣24. Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/): 交换链表相邻两个节点
 
 ### 力扣leetcode-cn
 - [力扣: 19. Remove Nth Node From End of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
 - [力扣21. Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/description/)
+- [力扣24. Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
 - [力扣75. Sort Colors](https://leetcode-cn.com/problems/sort-colors/)
 - [力扣:83. Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
 - [力扣88: Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/)
