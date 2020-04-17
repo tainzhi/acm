@@ -37,11 +37,21 @@ some notes about my acm training and problems Solutions
 - [Medium][力扣451. Sort Characters By Frequency](https://leetcode-cn.com/problems/sort-characters-by-frequency/): 根据char出现的频率倒序排序, 然后输出
 - [Medium][力扣75. Sort Colors, 三色旗排序](https://leetcode-cn.com/problems/sort-colors/): 也可以插入排序; 当然还有三色旗的特定解法
 
+### 链表指针
+- [力扣:160. Intersection of Two Linked Lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/): 暴力法和双指针法: 两个指针分别从头同步遍历, 如果到达链表尾后, 切换到另一个链表头, 依然同步遍历, 如果相等, 则是交点, 否则到达末尾, 返回NULL
+- [力扣:206. Reverse Linked List (Easy)](https://leetcode-cn.com/problems/reverse-linked-list/description/)
+- [力扣21. Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/description/)
+- [力扣:83. Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
+
 ### 力扣leetcode-cn
+- [力扣21. Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/description/)
 - [力扣75. Sort Colors](https://leetcode-cn.com/problems/sort-colors/)
+- [力扣:83. Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
 - [力扣88: Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/)
 - [力扣141: Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/)
+- [力扣:160. Intersection of Two Linked Lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
 - [力扣167: two sum II](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
+- [力扣:206. Reverse Linked List (Easy)](https://leetcode-cn.com/problems/reverse-linked-list/description/)
 - [力扣345: Reverse Vowels of a String](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
 - [力扣347. Top K Frequent Elements](https://leetcode-cn.com/problems/top-k-frequent-elements/)
 - [力扣451. Sort Characters By Frequency](https://leetcode-cn.com/problems/sort-characters-by-frequency/)
