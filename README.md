@@ -42,8 +42,10 @@ some notes about my acm training and problems Solutions
 - [力扣:206. Reverse Linked List (Easy)](https://leetcode-cn.com/problems/reverse-linked-list/description/)
 - [力扣21. Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/description/)
 - [力扣:83. Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
+- [Medium][力扣: 19. Remove Nth Node From End of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/): 双指针, 第2个指针比第一个指针先走n步, 注意边界情况
 
 ### 力扣leetcode-cn
+- [力扣: 19. Remove Nth Node From End of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
 - [力扣21. Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/description/)
 - [力扣75. Sort Colors](https://leetcode-cn.com/problems/sort-colors/)
 - [力扣:83. Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
