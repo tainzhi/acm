@@ -7,7 +7,6 @@ some notes about my acm training and problems Solutions
     - [jobdu](#jobdu)
     - [hdu](#hdu)
     - [poj](#poj)
-    - [leetcode](#leetcode)
     - [UVA](#uva)
     - [Codechef](#codechef)
     - [SPOJ](#spoj)
@@ -46,6 +45,7 @@ some notes about my acm training and problems Solutions
 - [Medium][力扣24. Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/): 交换链表相邻两个节点
 
 ### 力扣leetcode-cn
+- leetcode-cn: 1, 147, 458, 530
 - [力扣: 19. Remove Nth Node From End of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
 - [力扣21. Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/description/)
 - [力扣24. Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
@@ -63,9 +63,15 @@ some notes about my acm training and problems Solutions
 - [力扣633: Sum of Square Numbers](https://leetcode-cn.com/problems/sum-of-square-numbers/)
 - [力扣912：排序数组](https://leetcode-cn.com/problems/sort-an-array/)
 
-## notes
-----
 
+## 其他的一些笔记
+### 删除除README和源码外的所有程序
+```bash
+# 用fd找到可执行程序删除
+fd -x t |xargs rm -rf
+# 用fd找到文件名包含dSYM文件夹删除
+fd dSYM |xargs rm -rf
+```
 ### compile and debug in MacOs
 ```bash
 // 当前目录生成a.out可执行文件
@@ -129,8 +135,6 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 ```
 
 - max unsigend long long is 64bit, 0xffffffffffffffff, 大于`1.84*10^20`
-
-
 
 ## hdu
 ----
@@ -212,12 +216,6 @@ memset(nums, 0xff, sizeof(nums)); //set every number in nums to -1
 #### [poj3461](http://poj.org/problem?id=3461) KMP
 #### [poj3904](http://poj.org/problem?id=3904) 容斥原理
 #### [poj3974](http://poj.org/problem?id=3974) 最长回文串Manacher算法
-
-## leetcode
----
-#### [leetcode1](https://leetcode.com/problems/two-sum/?tab=Description) Two Sum
-#### [leetcode530](https://leetcode.com/problems/minimum-absolute-difference-in-bst/#/description) Minimum Absolute Difference in BST
-
 ### UVA
 ---
 #### [uva10325](https://vjudge.net/problem/UVA-10325) 容斥原理, 使用long long
