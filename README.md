@@ -1,15 +1,12 @@
+# Todo
+[leetcode面试题相关](https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95.md)
+- [x] 双指针
+- [x] 排序
+
+- []链表[8](https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E9%93%BE%E8%A1%A8.md#7-%E9%93%BE%E8%A1%A8%E6%B1%82%E5%92%8C)
 # Info
 
 some notes about my acm training and problems Solutions
-
-- [Notes](#notes)
-- [Solutions](#solutions)
-    - [jobdu](#jobdu)
-    - [hdu](#hdu)
-    - [poj](#poj)
-    - [UVA](#uva)
-    - [Codechef](#codechef)
-    - [SPOJ](#spoj)
 ## 基础算法
 - 冒泡排序
 - 快速排序，[912：排序数组](https://leetcode-cn.com/problems/sort-an-array/)
