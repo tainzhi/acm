@@ -23,7 +23,7 @@ some notes about my acm training and problems Solutions
 - 堆排序 heap_sort
 
 ## 针对面试
-### 双指针
+#### 双指针
 - [Easy][167: two sum II](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
 - [Easy][633: Sum of Square Numbers](https://leetcode-cn.com/problems/sum-of-square-numbers/): 使用unsigend int; Math.sqrt剪枝
 - [Easy][345: Reverse Vowels of a String](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
@@ -31,12 +31,12 @@ some notes about my acm training and problems Solutions
 - [Easy][88: Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/)
 - [Easy][141: Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/): 双指针, 一个指针跳一步, 另一个指针跳2步, 若存在环, 则一定能相遇
 - [Medium][524: Longest Word in Dictionary through Deleting](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/): 用指针判断另一个string是否是当前string的字串, 即另一个string的char与当前string的char相等, 另一个string的指针才增加直到遍历完
-### 排序
+#### 排序
 - [Medium][347. Top K Frequent Elements](https://leetcode-cn.com/problems/top-k-frequent-elements/)
 - [Medium][451. Sort Characters By Frequency](https://leetcode-cn.com/problems/sort-characters-by-frequency/): 根据char出现的频率倒序排序, 然后输出
 - [Medium][75. Sort Colors, 三色旗排序](https://leetcode-cn.com/problems/sort-colors/): 也可以插入排序; 当然还有三色旗的特定解法
 
-### 链表指针
+#### 链表指针
 - [1. Two Sum](https://leetcode-cn.com/problems/two-sum/)
 - [160. Intersection of Two Linked Lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/): 暴力法和双指针法: 两个指针分别从头同步遍历, 如果到达链表尾后, 切换到另一个链表头, 依然同步遍历, 如果相等, 则是交点, 否则到达末尾, 返回NULL
 - [206. Reverse Linked List (Easy)](https://leetcode-cn.com/problems/reverse-linked-list/description/)
@@ -46,8 +46,11 @@ some notes about my acm training and problems Solutions
 - [Medium][24. Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/): 交换链表相邻两个节点
 - [Medium][147. Insertion Sort List](https://leetcode-cn.com/problems/insertion-sort-list/): 链表实现插入排序
 
-### 堆和链表
-- [Medium][445. Add Two Numbers II](https://leetcode-cn.com/problems/add-two-numbers-ii/)
+#### 堆和链表
+- [Medium][445. Add Two Numbers II](https://leetcode-cn.com/problems/add-two-numbers-ii/): 递归思想; 即可以使用stack库, 也可以手动实现递归思想
+
+#### 二叉树BST(binary search tree)
+- [Easy][530. Minimum Absolute Difference in BST](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/): 方法1: 先中序遍历得出排序数组, 再比较获得最小的差值; 注意传输vector的引用; 方法2: 中序遍历, 保留之前的val值
 
 ### leetcode-cn
 - leetcode-cn: 1, 147, 458, 530
@@ -65,8 +68,10 @@ some notes about my acm training and problems Solutions
 - [206. Reverse Linked List (Easy)](https://leetcode-cn.com/problems/reverse-linked-list/description/)
 - [345: Reverse Vowels of a String](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
 - [347. Top K Frequent Elements](https://leetcode-cn.com/problems/top-k-frequent-elements/)
+- [445. Add Two Numbers II](https://leetcode-cn.com/problems/add-two-numbers-ii/)
 - [451. Sort Characters By Frequency](https://leetcode-cn.com/problems/sort-characters-by-frequency/)
 - [524: Longest Word in Dictionary through Deleting](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/)
+- [530. Minimum Absolute Difference in BST](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/): 先中序遍历得出排序数组, 再比较获得最小的差值; 注意传输vector的引用
 - [633: Sum of Square Numbers](https://leetcode-cn.com/problems/sum-of-square-numbers/)
 - [912：排序数组](https://leetcode-cn.com/problems/sort-an-array/)
 
