@@ -45,6 +45,7 @@ some notes about my acm training and problems Solutions
 
 #### 堆和链表
 - [Medium][445. Add Two Numbers II](https://leetcode-cn.com/problems/add-two-numbers-ii/): 递归思想; 即可以使用stack库, 也可以手动实现递归思想
+- [Medium][234.Palindrome Linked List](https://leetcode-cn.com/problems/palindrome-linked-list/): 通过递归函数求解
 
 #### 二叉树BST(binary search tree)
 - [Easy][530. Minimum Absolute Difference in BST](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/): 方法1: 先中序遍历得出排序数组, 再比较获得最小的差值; 注意传输vector的引用; 方法2: 中序遍历, 保留之前的val值
@@ -63,6 +64,7 @@ some notes about my acm training and problems Solutions
 - [160. Intersection of Two Linked Lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
 - [167: two sum II](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
 - [206. Reverse Linked List (Easy)](https://leetcode-cn.com/problems/reverse-linked-list/description/)
+- [234.Palindrome Linked List](https://leetcode-cn.com/problems/palindrome-linked-list/): 通过递归函数求解
 - [345: Reverse Vowels of a String](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
 - [347. Top K Frequent Elements](https://leetcode-cn.com/problems/top-k-frequent-elements/)
 - [445. Add Two Numbers II](https://leetcode-cn.com/problems/add-two-numbers-ii/)
