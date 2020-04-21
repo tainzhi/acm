@@ -3,7 +3,8 @@
 - [x] 双指针
 - [x] 排序
 
-- []链表[8](https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E9%93%BE%E8%A1%A8.md#7-%E9%93%BE%E8%A1%A8%E6%B1%82%E5%92%8C)
+- [x]链表
+- []树(https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E6%A0%91.md)
 # Info
 
 some notes about my acm training and problems Solutions
@@ -46,6 +47,8 @@ some notes about my acm training and problems Solutions
 #### 堆和链表
 - [Medium][445. Add Two Numbers II](https://leetcode-cn.com/problems/add-two-numbers-ii/): 递归思想; 即可以使用stack库, 也可以手动实现递归思想
 - [Medium][234.Palindrome Linked List](https://leetcode-cn.com/problems/palindrome-linked-list/): 通过递归函数求解
+- [Medium][725. Split Linked List in Parts](https://leetcode-cn.com/problems/split-linked-list-in-parts/): 均分链表, 任意分割后的链表长度差不超过1, 可以有null: 先均分, 再对剩余的分配到前面的段
+- [Medium][328. Odd Even Linked List](https://leetcode-cn.com/problems/odd-even-linked-list/): 按照节点顺序的奇偶性组织到一起
 
 #### 二叉树BST(binary search tree)
 - [Easy][530. Minimum Absolute Difference in BST](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/): 方法1: 先中序遍历得出排序数组, 再比较获得最小的差值; 注意传输vector的引用; 方法2: 中序遍历, 保留之前的val值
@@ -65,6 +68,7 @@ some notes about my acm training and problems Solutions
 - [167: two sum II](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
 - [206. Reverse Linked List (Easy)](https://leetcode-cn.com/problems/reverse-linked-list/description/)
 - [234.Palindrome Linked List](https://leetcode-cn.com/problems/palindrome-linked-list/): 通过递归函数求解
+- [328. Odd Even Linked List](https://leetcode-cn.com/problems/odd-even-linked-list/)
 - [345: Reverse Vowels of a String](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
 - [347. Top K Frequent Elements](https://leetcode-cn.com/problems/top-k-frequent-elements/)
 - [445. Add Two Numbers II](https://leetcode-cn.com/problems/add-two-numbers-ii/)
@@ -72,6 +76,7 @@ some notes about my acm training and problems Solutions
 - [524: Longest Word in Dictionary through Deleting](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/)
 - [530. Minimum Absolute Difference in BST](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/): 先中序遍历得出排序数组, 再比较获得最小的差值; 注意传输vector的引用
 - [633: Sum of Square Numbers](https://leetcode-cn.com/problems/sum-of-square-numbers/)
+- [725. Split Linked List in Parts](https://leetcode-cn.com/problems/split-linked-list-in-parts/)
 - [912：排序数组](https://leetcode-cn.com/problems/sort-an-array/)
 
 
