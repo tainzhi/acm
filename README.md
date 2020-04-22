@@ -56,6 +56,8 @@ some notes about my acm training and problems Solutions
 #### 树
 - [easy][104](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/): 树的深度
 - [easy][110](https://leetcode-cn.com/problems/balanced-binary-tree/): 判断是否是平衡树, 任意节点子节点的高度差不超过1
+- [easy][226](https://leetcode-cn.com/problems/invert-binary-tree/): 反转二叉树
+- [easy][543](https://leetcode-cn.com/problems/diameter-of-binary-tree/): 任意节点之间最长的距离, 左右子节点的最长路径相加即经过此节点的最长距离, 求出每个节点的最长距离的最大值
 
 ### leetcode-cn
 - leetcode-cn: 1, 147, 458, 530
@@ -73,6 +75,7 @@ some notes about my acm training and problems Solutions
 - [160. Intersection of Two Linked Lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
 - [167: two sum II](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
 - [206. Reverse Linked List (Easy)](https://leetcode-cn.com/problems/reverse-linked-list/description/)
+- [226](https://leetcode-cn.com/problems/invert-binary-tree/): 反转二叉树
 - [234.Palindrome Linked List](https://leetcode-cn.com/problems/palindrome-linked-list/): 通过递归函数求解
 - [328. Odd Even Linked List](https://leetcode-cn.com/problems/odd-even-linked-list/)
 - [345: Reverse Vowels of a String](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
@@ -81,6 +84,7 @@ some notes about my acm training and problems Solutions
 - [451. Sort Characters By Frequency](https://leetcode-cn.com/problems/sort-characters-by-frequency/)
 - [524: Longest Word in Dictionary through Deleting](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/)
 - [530. Minimum Absolute Difference in BST](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/): 先中序遍历得出排序数组, 再比较获得最小的差值; 注意传输vector的引用
+- [543](https://leetcode-cn.com/problems/diameter-of-binary-tree/): 任意节点之间最长的距离
 - [633: Sum of Square Numbers](https://leetcode-cn.com/problems/sum-of-square-numbers/)
 - [725. Split Linked List in Parts](https://leetcode-cn.com/problems/split-linked-list-in-parts/)
 - [912：排序数组](https://leetcode-cn.com/problems/sort-an-array/)
