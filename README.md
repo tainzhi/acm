@@ -53,6 +53,10 @@ some notes about my acm training and problems Solutions
 #### 二叉树BST(binary search tree)
 - [Easy][530. Minimum Absolute Difference in BST](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/): 方法1: 先中序遍历得出排序数组, 再比较获得最小的差值; 注意传输vector的引用; 方法2: 中序遍历, 保留之前的val值
 
+#### 树
+- [easy][104](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/): 树的深度
+- [easy][110](https://leetcode-cn.com/problems/balanced-binary-tree/): 判断是否是平衡树, 任意节点子节点的高度差不超过1
+
 ### leetcode-cn
 - leetcode-cn: 1, 147, 458, 530
 - [1.Tow sum](https://leetcode-cn.com/problems/two-sum/)
@@ -62,6 +66,8 @@ some notes about my acm training and problems Solutions
 - [75. Sort Colors](https://leetcode-cn.com/problems/sort-colors/)
 - [83. Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
 - [88: Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/)
+- [104](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/): 树的深度
+- [110](https://leetcode-cn.com/problems/balanced-binary-tree/): 判断是否是平衡树, 任意节点子节点的高度差不超过1
 - [141: Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/)
 - [147. Insertion Sort List](https://leetcode-cn.com/problems/insertion-sort-list/)
 - [160. Intersection of Two Linked Lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
