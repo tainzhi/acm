@@ -58,6 +58,7 @@ some notes about my acm training and problems Solutions
 - [easy][110](https://leetcode-cn.com/problems/balanced-binary-tree/): 判断是否是平衡树, 任意节点子节点的高度差不超过1
 - [easy][226](https://leetcode-cn.com/problems/invert-binary-tree/): 反转二叉树
 - [easy][543](https://leetcode-cn.com/problems/diameter-of-binary-tree/): 任意节点之间最长的距离, 左右子节点的最长路径相加即经过此节点的最长距离, 求出每个节点的最长距离的最大值
+- [easy][112](https://leetcode-cn.com/problems/path-sum/): 
 
 ### leetcode-cn
 - leetcode-cn: 1, 147, 458, 530
@@ -70,6 +71,7 @@ some notes about my acm training and problems Solutions
 - [88: Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/)
 - [104](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/): 树的深度
 - [110](https://leetcode-cn.com/problems/balanced-binary-tree/): 判断是否是平衡树, 任意节点子节点的高度差不超过1
+- [112](https://leetcode-cn.com/problems/path-sum/)
 - [141: Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/)
 - [147. Insertion Sort List](https://leetcode-cn.com/problems/insertion-sort-list/)
 - [160. Intersection of Two Linked Lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
@@ -85,6 +87,7 @@ some notes about my acm training and problems Solutions
 - [524: Longest Word in Dictionary through Deleting](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/)
 - [530. Minimum Absolute Difference in BST](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/): 先中序遍历得出排序数组, 再比较获得最小的差值; 注意传输vector的引用
 - [543](https://leetcode-cn.com/problems/diameter-of-binary-tree/): 任意节点之间最长的距离
+- [617](https://leetcode-cn.com/problems/merge-two-binary-trees/): 归并两个二叉树
 - [633: Sum of Square Numbers](https://leetcode-cn.com/problems/sum-of-square-numbers/)
 - [725. Split Linked List in Parts](https://leetcode-cn.com/problems/split-linked-list-in-parts/)
 - [912：排序数组](https://leetcode-cn.com/problems/sort-an-array/)
