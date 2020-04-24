@@ -4,7 +4,7 @@
 - [x] 排序
 
 - [x]链表
-- []树(https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E6%A0%91.md)
+- []树(https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E6%A0%91.md#12-%E7%9B%B8%E5%90%8C%E8%8A%82%E7%82%B9%E5%80%BC%E7%9A%84%E6%9C%80%E5%A4%A7%E8%B7%AF%E5%BE%84%E9%95%BF%E5%BA%A6)
 # Info
 
 some notes about my acm training and problems Solutions
@@ -59,6 +59,11 @@ some notes about my acm training and problems Solutions
 - [easy][226](https://leetcode-cn.com/problems/invert-binary-tree/): 反转二叉树
 - [easy][543](https://leetcode-cn.com/problems/diameter-of-binary-tree/): 任意节点之间最长的距离, 左右子节点的最长路径相加即经过此节点的最长距离, 求出每个节点的最长距离的最大值
 - [easy][112](https://leetcode-cn.com/problems/path-sum/): 
+- [Medium][437](https://leetcode-cn.com/problems/path-sum-iii/): 存在多少条路径等于指定sum
+- 101: 二叉树是否对称
+- 572: b二叉树是否是a二叉树的子树
+- 111: 二叉树的根节点到叶节点的最小深度
+- 404: 所有左叶子的和
 
 ### leetcode-cn
 - leetcode-cn: 1, 147, 458, 530
@@ -69,8 +74,10 @@ some notes about my acm training and problems Solutions
 - [75. Sort Colors](https://leetcode-cn.com/problems/sort-colors/)
 - [83. Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
 - [88: Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/)
+- 101: 二叉树是否对称
 - [104](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/): 树的深度
 - [110](https://leetcode-cn.com/problems/balanced-binary-tree/): 判断是否是平衡树, 任意节点子节点的高度差不超过1
+- 111: 二叉树的根节点到叶节点的最小深度
 - [112](https://leetcode-cn.com/problems/path-sum/)
 - [141: Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/)
 - [147. Insertion Sort List](https://leetcode-cn.com/problems/insertion-sort-list/)
@@ -82,11 +89,14 @@ some notes about my acm training and problems Solutions
 - [328. Odd Even Linked List](https://leetcode-cn.com/problems/odd-even-linked-list/)
 - [345: Reverse Vowels of a String](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
 - [347. Top K Frequent Elements](https://leetcode-cn.com/problems/top-k-frequent-elements/)
+- 404: 所有左叶子的和
+- [437](https://leetcode-cn.com/problems/path-sum-iii/)
 - [445. Add Two Numbers II](https://leetcode-cn.com/problems/add-two-numbers-ii/)
 - [451. Sort Characters By Frequency](https://leetcode-cn.com/problems/sort-characters-by-frequency/)
 - [524: Longest Word in Dictionary through Deleting](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/)
 - [530. Minimum Absolute Difference in BST](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/): 先中序遍历得出排序数组, 再比较获得最小的差值; 注意传输vector的引用
 - [543](https://leetcode-cn.com/problems/diameter-of-binary-tree/): 任意节点之间最长的距离
+- 572: b二叉树是否是a二叉树的子树
 - [617](https://leetcode-cn.com/problems/merge-two-binary-trees/): 归并两个二叉树
 - [633: Sum of Square Numbers](https://leetcode-cn.com/problems/sum-of-square-numbers/)
 - [725. Split Linked List in Parts](https://leetcode-cn.com/problems/split-linked-list-in-parts/)
