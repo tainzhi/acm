@@ -64,6 +64,7 @@ some notes about my acm training and problems Solutions
 - 572: b二叉树是否是a二叉树的子树
 - 111: 二叉树的根节点到叶节点的最小深度
 - 404: 所有左叶子的和
+- 687: 在二叉树中找出有相同值的最长路径
 
 ### leetcode-cn
 - leetcode-cn: 1, 147, 458, 530
@@ -99,6 +100,7 @@ some notes about my acm training and problems Solutions
 - 572: b二叉树是否是a二叉树的子树
 - [617](https://leetcode-cn.com/problems/merge-two-binary-trees/): 归并两个二叉树
 - [633: Sum of Square Numbers](https://leetcode-cn.com/problems/sum-of-square-numbers/)
+- 687: 在二叉树中找出有相同值的最长路径
 - [725. Split Linked List in Parts](https://leetcode-cn.com/problems/split-linked-list-in-parts/)
 - [912：排序数组](https://leetcode-cn.com/problems/sort-an-array/)
 
