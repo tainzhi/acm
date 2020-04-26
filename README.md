@@ -67,6 +67,9 @@ some notes about my acm training and problems Solutions
 - 687: 在二叉树中找出有相同值的最长路径
 - [Medium]337: 二叉树取不能相邻的点, 使得值最大. 树形dp
 - 671: 求类似最小二叉树的第二小的值
+- 144: 非递归实现的二叉树先序遍历
+- 145: 非递归实现的二叉树后序遍历
+- 94: 非递归实现的二叉树中序遍历
 
 #### BFS
 - 637, 671
@@ -81,12 +84,15 @@ some notes about my acm training and problems Solutions
 - [75. Sort Colors](https://leetcode-cn.com/problems/sort-colors/)
 - [83. Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
 - [88: Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/)
+- 94: 非递归实现的二叉树中序遍历
 - 101: 二叉树是否对称
 - [104](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/): 树的深度
 - [110](https://leetcode-cn.com/problems/balanced-binary-tree/): 判断是否是平衡树, 任意节点子节点的高度差不超过1
 - 111: 二叉树的根节点到叶节点的最小深度
 - [112](https://leetcode-cn.com/problems/path-sum/)
 - [141: Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/)
+- 144: 非递归实现的二叉树先序遍历
+- 145: 非递归实现的二叉树后序遍历
 - [147. Insertion Sort List](https://leetcode-cn.com/problems/insertion-sort-list/)
 - [160. Intersection of Two Linked Lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
 - [167: two sum II](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
