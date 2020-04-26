@@ -4,7 +4,7 @@
 - [x] 排序
 
 - [x]链表
-- []树(https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E6%A0%91.md#12-%E7%9B%B8%E5%90%8C%E8%8A%82%E7%82%B9%E5%80%BC%E7%9A%84%E6%9C%80%E5%A4%A7%E8%B7%AF%E5%BE%84%E9%95%BF%E5%BA%A6)
+- []树(https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E6%A0%91.md#1-%E9%9D%9E%E9%80%92%E5%BD%92%E5%AE%9E%E7%8E%B0%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86)
 # Info
 
 some notes about my acm training and problems Solutions
@@ -65,6 +65,12 @@ some notes about my acm training and problems Solutions
 - 111: 二叉树的根节点到叶节点的最小深度
 - 404: 所有左叶子的和
 - 687: 在二叉树中找出有相同值的最长路径
+- [Medium]337: 二叉树取不能相邻的点, 使得值最大. 树形dp
+- 671: 求类似最小二叉树的第二小的值
+
+#### BFS
+- 637, 671
+
 
 ### leetcode-cn
 - leetcode-cn: 1, 147, 458, 530
@@ -88,6 +94,7 @@ some notes about my acm training and problems Solutions
 - [226](https://leetcode-cn.com/problems/invert-binary-tree/): 反转二叉树
 - [234.Palindrome Linked List](https://leetcode-cn.com/problems/palindrome-linked-list/): 通过递归函数求解
 - [328. Odd Even Linked List](https://leetcode-cn.com/problems/odd-even-linked-list/)
+- 337: 二叉树取不能相邻的点, 使得值最大. 树形dp
 - [345: Reverse Vowels of a String](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
 - [347. Top K Frequent Elements](https://leetcode-cn.com/problems/top-k-frequent-elements/)
 - 404: 所有左叶子的和
@@ -100,7 +107,9 @@ some notes about my acm training and problems Solutions
 - 572: b二叉树是否是a二叉树的子树
 - [617](https://leetcode-cn.com/problems/merge-two-binary-trees/): 归并两个二叉树
 - [633: Sum of Square Numbers](https://leetcode-cn.com/problems/sum-of-square-numbers/)
+- 637
 - 687: 在二叉树中找出有相同值的最长路径
+- 671: 求类似最小二叉树的第二小的值
 - [725. Split Linked List in Parts](https://leetcode-cn.com/problems/split-linked-list-in-parts/)
 - [912：排序数组](https://leetcode-cn.com/problems/sort-an-array/)
 

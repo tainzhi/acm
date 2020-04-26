@@ -3,6 +3,11 @@
         "queue": "cpp",
         "stack": "cpp",
         "ostream": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "memory": "cpp",
+        "utility": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "__config": "cpp"
     }
 }
