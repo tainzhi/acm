@@ -52,6 +52,8 @@ some notes about my acm training and problems Solutions
 
 #### 二叉树BST(binary search tree)
 - [Easy][530. Minimum Absolute Difference in BST](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/): 方法1: 先中序遍历得出排序数组, 再比较获得最小的差值; 注意传输vector的引用; 方法2: 中序遍历, 保留之前的val值
+- [Medium]669. 给一个二叉搜索树和范围[L, R], 修建该树, 使得所有节点在范围内
+- [Medium]230. 二叉搜索树中第k小的数. 非递归中序遍历, 第k个退栈的即是
 
 #### 树
 - [easy][104](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/): 树的深度
@@ -98,6 +100,7 @@ some notes about my acm training and problems Solutions
 - [167: two sum II](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
 - [206. Reverse Linked List (Easy)](https://leetcode-cn.com/problems/reverse-linked-list/description/)
 - [226](https://leetcode-cn.com/problems/invert-binary-tree/): 反转二叉树
+- 230
 - [234.Palindrome Linked List](https://leetcode-cn.com/problems/palindrome-linked-list/): 通过递归函数求解
 - [328. Odd Even Linked List](https://leetcode-cn.com/problems/odd-even-linked-list/)
 - 337: 二叉树取不能相邻的点, 使得值最大. 树形dp
@@ -114,6 +117,7 @@ some notes about my acm training and problems Solutions
 - [617](https://leetcode-cn.com/problems/merge-two-binary-trees/): 归并两个二叉树
 - [633: Sum of Square Numbers](https://leetcode-cn.com/problems/sum-of-square-numbers/)
 - 637
+- [Medium]669. 给一个二叉搜索树和范围[L, R], 修建该树, 使得所有节点在范围内
 - 687: 在二叉树中找出有相同值的最长路径
 - 671: 求类似最小二叉树的第二小的值
 - [725. Split Linked List in Parts](https://leetcode-cn.com/problems/split-linked-list-in-parts/)
