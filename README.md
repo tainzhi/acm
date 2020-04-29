@@ -8,7 +8,8 @@
 - [x] 排序
 
 - [x]链表
-- []树(https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E6%A0%91.md#1-%E9%9D%9E%E9%80%92%E5%BD%92%E5%AE%9E%E7%8E%B0%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86)
+- [x]树
+- []栈和队列 https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97.md
 
 ## leetcode本地调试c++
 - leetcode playground拷贝代码到本地
@@ -117,6 +118,12 @@ some notes about my acm training and problems Solutions
 - 637, 671
 
 #### Trie树
+- [Medium]208. Trie树建立
+- [Medium]677. Trie树的应用, 求前缀和
+
+#### 栈和队列
+- 232. 用stack模拟queue
+- 225. 用queue模拟stack
 
 ### leetcode-cn
 - leetcode-cn: 1, 147, 458, 530
@@ -142,9 +149,12 @@ some notes about my acm training and problems Solutions
 - [160. Intersection of Two Linked Lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
 - [167: two sum II](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
 - [206. Reverse Linked List (Easy)](https://leetcode-cn.com/problems/reverse-linked-list/description/)
+- 208. Trie树建立
 - [226](https://leetcode-cn.com/problems/invert-binary-tree/): 反转二叉树
+- 225. 用queue模拟stack
 - 230
 - [234.Palindrome Linked List](https://leetcode-cn.com/problems/palindrome-linked-list/): 通过递归函数求解
+- 232. 用stack模拟queue
 - 235
 - 236. 二叉树的最近公共祖先
 - [328. Odd Even Linked List](https://leetcode-cn.com/problems/odd-even-linked-list/)
@@ -166,8 +176,9 @@ some notes about my acm training and problems Solutions
 - 637
 - 653
 - 669. 给一个二叉搜索树和范围[L, R], 修建该树, 使得所有节点在范围内
-- 687: 在二叉树中找出有相同值的最长路径
 - 671: 求类似最小二叉树的第二小的值
+- 677: trie树的应用
+- 687: 在二叉树中找出有相同值的最长路径
 - [725. Split Linked List in Parts](https://leetcode-cn.com/problems/split-linked-list-in-parts/)
 - [912：排序数组](https://leetcode-cn.com/problems/sort-an-array/)
 
