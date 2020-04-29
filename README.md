@@ -1,12 +1,43 @@
 # Todo
-全站排名
-2020-04-28 98651
-[leetcode面试题相关](https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95.md)
+## leetcode 全站排名
+- 2020-04-28 98651
+- 2020-04-29 89052
+
+## [leetcode面试题相关](https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95.md)
 - [x] 双指针
 - [x] 排序
 
 - [x]链表
 - []树(https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E6%A0%91.md#1-%E9%9D%9E%E9%80%92%E5%BD%92%E5%AE%9E%E7%8E%B0%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86)
+
+## leetcode本地调试c++
+- leetcode playground拷贝代码到本地
+- 添加如下头文件
+```cpp
+#include <stdio.h>
+#include <stdlib.h>
+#include <stack>
+#include <iostream>
+#include <vector>
+#include <typeinfo>
+#include <exception>
+#include <map>
+#include <list>
+#include <algorithm>
+#include <time.h>
+#include <string.h>
+#include <sstream>
+#include <queue>
+
+using namespace std;
+
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
+```
 # Info
 
 some notes about my acm training and problems Solutions
@@ -61,6 +92,7 @@ some notes about my acm training and problems Solutions
 - [Medium]108. 从有序数组建立平衡的二叉搜索树
 - [Medium]109. 从有序链表建立平衡的二叉搜索树
 - [Easy]653. 在BST中找两个点, 其和是否等于k
+- [Medium]501. 找出二叉搜索树中最多出现的数
 
 #### 树
 - [easy][104](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/): 树的深度
@@ -84,6 +116,7 @@ some notes about my acm training and problems Solutions
 #### BFS
 - 637, 671
 
+#### Trie树
 
 ### leetcode-cn
 - leetcode-cn: 1, 147, 458, 530
@@ -122,6 +155,7 @@ some notes about my acm training and problems Solutions
 - [437](https://leetcode-cn.com/problems/path-sum-iii/)
 - [445. Add Two Numbers II](https://leetcode-cn.com/problems/add-two-numbers-ii/)
 - [451. Sort Characters By Frequency](https://leetcode-cn.com/problems/sort-characters-by-frequency/)
+- 501
 - [524: Longest Word in Dictionary through Deleting](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting/)
 - [530. Minimum Absolute Difference in BST](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/): 先中序遍历得出排序数组, 再比较获得最小的差值; 注意传输vector的引用
 - 538. 反序中序遍历

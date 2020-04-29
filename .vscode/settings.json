@@ -8,6 +8,22 @@
         "utility": "cpp",
         "tuple": "cpp",
         "type_traits": "cpp",
-        "__config": "cpp"
+        "__config": "cpp",
+        "__hash_table": "cpp",
+        "__split_buffer": "cpp",
+        "__tree": "cpp",
+        "atomic": "cpp",
+        "deque": "cpp",
+        "string_view": "cpp",
+        "ios": "cpp",
+        "list": "cpp",
+        "map": "cpp",
+        "set": "cpp",
+        "string": "cpp",
+        "system_error": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "*.tcc": "cpp",
+        "hashtable": "cpp"
     }
 }
