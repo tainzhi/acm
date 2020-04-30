@@ -126,6 +126,7 @@ some notes about my acm training and problems Solutions
 - 225. 用queue模拟stack
 - 155. 实现一个栈,提供获取最小值的接口
 - 20. 用栈来判断一个字符串中[](){}是否成对
+- [Medium]739. 数组中元素与下一个比它大的元素之间的距离
 
 ### leetcode-cn
 - leetcode-cn: 1, 147, 458, 530
@@ -184,6 +185,7 @@ some notes about my acm training and problems Solutions
 - 677: trie树的应用
 - 687: 在二叉树中找出有相同值的最长路径
 - [725. Split Linked List in Parts](https://leetcode-cn.com/problems/split-linked-list-in-parts/)
+- 739. 数组中元素与下一个比它大的元素之间的距离
 - [912：排序数组](https://leetcode-cn.com/problems/sort-an-array/)
 
 
