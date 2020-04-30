@@ -9,7 +9,9 @@
 
 - [x]链表
 - [x]树
-- []栈和队列 https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97.md
+- [x]栈和队列
+求解算术表达式的结果（LeetCode 224、227、772、770)
+求解直方图里最大的矩形区域（LeetCode 84）
 
 ## leetcode本地调试c++
 - leetcode playground拷贝代码到本地
