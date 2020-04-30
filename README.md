@@ -124,11 +124,14 @@ some notes about my acm training and problems Solutions
 #### 栈和队列
 - 232. 用stack模拟queue
 - 225. 用queue模拟stack
+- 155. 实现一个栈,提供获取最小值的接口
+- 20. 用栈来判断一个字符串中[](){}是否成对
 
 ### leetcode-cn
 - leetcode-cn: 1, 147, 458, 530
 - [1.Tow sum](https://leetcode-cn.com/problems/two-sum/)
 - [19. Remove Nth Node From End of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
+- 20. 用栈来判断一个字符串中[](){}是否成对
 - [21. Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/description/)
 - [24. Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
 - [75. Sort Colors](https://leetcode-cn.com/problems/sort-colors/)
@@ -146,6 +149,7 @@ some notes about my acm training and problems Solutions
 - 144: 非递归实现的二叉树先序遍历
 - 145: 非递归实现的二叉树后序遍历
 - [147. Insertion Sort List](https://leetcode-cn.com/problems/insertion-sort-list/)
+- 155. 实现一个栈,提供获取最小值的接口
 - [160. Intersection of Two Linked Lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
 - [167: two sum II](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
 - [206. Reverse Linked List (Easy)](https://leetcode-cn.com/problems/reverse-linked-list/description/)
