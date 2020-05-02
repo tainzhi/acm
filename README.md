@@ -30,6 +30,7 @@
 #include <algorithm>
 #include <time.h>
 #include <string.h>
+#include <assert.h>
 #include <sstream>
 #include <queue>
 
@@ -131,6 +132,7 @@ some notes about my acm training and problems Solutions
 - 20. 用栈来判断一个字符串中[](){}是否成对
 - [Medium]739. 数组中元素与下一个比它大的元素之间的距离
 - [Medium]150. 逆波兰表达式求值
+- 227. 简单计算器
 
 ### leetcode-cn
 - leetcode-cn: 1, 147, 458, 530
@@ -162,6 +164,7 @@ some notes about my acm training and problems Solutions
 - 208. Trie树建立
 - [226](https://leetcode-cn.com/problems/invert-binary-tree/): 反转二叉树
 - 225. 用queue模拟stack
+- 227. 简单计算器
 - 230
 - [234.Palindrome Linked List](https://leetcode-cn.com/problems/palindrome-linked-list/): 通过递归函数求解
 - 232. 用stack模拟queue
