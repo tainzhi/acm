@@ -135,6 +135,9 @@ some notes about my acm training and problems Solutions
 - [Medium]150. 逆波兰表达式求值
 - 227. 简单计算器
 
+#### 分治法
+- [Medium]241. 分治法求表达式的多种结果(任意添加括号)
+
 ### leetcode-cn
 - leetcode-cn: 1, 147, 458, 530
 - [1.Tow sum](https://leetcode-cn.com/problems/two-sum/)
@@ -171,6 +174,7 @@ some notes about my acm training and problems Solutions
 - 232. 用stack模拟queue
 - 235
 - 236. 二叉树的最近公共祖先
+- 241. 分治法求表达式的多种结果(任意添加括号)
 - [328. Odd Even Linked List](https://leetcode-cn.com/problems/odd-even-linked-list/)
 - 337: 二叉树取不能相邻的点, 使得值最大. 树形dp
 - [345: Reverse Vowels of a String](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
