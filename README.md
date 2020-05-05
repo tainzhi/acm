@@ -4,6 +4,7 @@
 - 2020-04-29 89052
 - 05-01 77746
 - 05-03 75930
+- 05-04 75152
 
 ## [leetcode面试题相关](https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95.md)
 - [x] 双指针
@@ -12,8 +13,11 @@
 - [x]链表
 - [x]树
 - [x]栈和队列
-求解算术表达式的结果（LeetCode 224、227、772、770)
-求解直方图里最大的矩形区域（LeetCode 84）
+- []哈希表 https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E5%93%88%E5%B8%8C%E8%A1%A8.md#1-%E6%95%B0%E7%BB%84%E4%B8%AD%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%9A%84%E5%92%8C%E4%B8%BA%E7%BB%99%E5%AE%9A%E5%80%BC
+770,84
+整理笔记241
+282
+
 
 ## leetcode本地调试c++
 - leetcode playground拷贝代码到本地
