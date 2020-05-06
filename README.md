@@ -13,7 +13,7 @@
 - [x]链表
 - [x]树
 - [x]栈和队列
-- []哈希表 https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E5%93%88%E5%B8%8C%E8%A1%A8.md#1-%E6%95%B0%E7%BB%84%E4%B8%AD%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%9A%84%E5%92%8C%E4%B8%BA%E7%BB%99%E5%AE%9A%E5%80%BC
+- [x]哈希表
 770,84
 整理笔记241
 282
@@ -142,6 +142,9 @@ some notes about my acm training and problems Solutions
 #### 分治法
 - [Medium]241. 分治法求表达式的多种结果(任意添加括号)
 
+#### 哈希
+- [Medium]128 求最长连续数字串
+
 ### leetcode-cn
 - leetcode-cn: 1, 147, 458, 530
 - [1.Tow sum](https://leetcode-cn.com/problems/two-sum/)
@@ -160,6 +163,7 @@ some notes about my acm training and problems Solutions
 - [110](https://leetcode-cn.com/problems/balanced-binary-tree/): 判断是否是平衡树, 任意节点子节点的高度差不超过1
 - 111: 二叉树的根节点到叶节点的最小深度
 - [112](https://leetcode-cn.com/problems/path-sum/)
+- 128 求最长连续数字串
 - [141: Linked List Cycle](https://leetcode-cn.com/problems/linked-list-cycle/)
 - 144: 非递归实现的二叉树先序遍历
 - 145: 非递归实现的二叉树后序遍历
