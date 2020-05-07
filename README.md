@@ -5,6 +5,7 @@
 - 05-01 77746
 - 05-03 75930
 - 05-04 75152
+- 05-07 71871
 
 ## [leetcode面试题相关](https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95.md)
 - [x] 双指针
@@ -14,9 +15,6 @@
 - [x]树
 - [x]栈和队列
 - [x]哈希表
-770,84
-整理笔记241
-282
 
 
 ## leetcode本地调试c++
@@ -144,6 +142,10 @@ some notes about my acm training and problems Solutions
 
 #### 哈希
 - [Medium]128 求最长连续数字串
+
+#### 回朔法
+- [Hard]51. N皇后问题
+- [Hard]282. 一串数字添加+,-,*等于特定的value
 
 ### leetcode-cn
 - leetcode-cn: 1, 147, 458, 530
