@@ -26,6 +26,8 @@
         "*.tcc": "cpp",
         "hashtable": "cpp",
         "iosfwd": "cpp",
-        "iterator": "cpp"
+        "iterator": "cpp",
+        "__functional_03": "cpp",
+        "functional": "cpp"
     }
 }
