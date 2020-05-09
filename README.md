@@ -1,4 +1,5 @@
 ## leetcode 全站排名
+[leetcode profile]()
 - 05-08 70154
 - 05-01 77746
 - 2020-04-28 98651
@@ -11,6 +12,7 @@
 - [x]树
 - [x]栈和队列
 - [x]哈希表
+- []字符串 https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E5%AD%97%E7%AC%A6%E4%B8%B2.md#7-%E5%9B%9E%E6%96%87%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AA%E6%95%B0
 
 
 ## leetcode本地调试c++
@@ -143,6 +145,11 @@ some notes about my acm training and problems Solutions
 #### 回朔法
 - [Hard]51. N皇后问题
 - [Hard]282. 一串数字添加+,-,*等于特定的value
+
+#### 字符串
+- 242. 两个字符串中包含的字母是否相同
+- 409
+- 205
 
 ### leetcode-cn
 - leetcode-cn: 1, 147, 458, 530
