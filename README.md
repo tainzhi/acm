@@ -1,5 +1,6 @@
 ## leetcode 全站排名
-[leetcode profile]()
+[leetcode profile](https://leetcode-cn.com/u/tainzhi/)
+- 05-09 67586
 - 05-08 70154
 - 05-01 77746
 - 2020-04-28 98651
@@ -150,6 +151,7 @@ some notes about my acm training and problems Solutions
 - 242. 两个字符串中包含的字母是否相同
 - 409
 - 205
+- 5
 
 ### leetcode-cn
 - leetcode-cn: 1, 147, 458, 530
