@@ -19,34 +19,9 @@
 
 
 ## leetcode本地调试c++
-- leetcode playground拷贝代码到本地
-- 添加如下头文件
-```cpp
-#include <stdio.h>
-#include <stdlib.h>
-#include <stack>
-#include <iostream>
-#include <vector>
-#include <typeinfo>
-#include <exception>
-#include <map>
-#include <list>
-#include <algorithm>
-#include <time.h>
-#include <string.h>
-#include <assert.h>
-#include <sstream>
-#include <queue>
+- leetcode playground拷贝代码到本地`debug.cc`
+- debug.cc中已经写好了常用的库和节点结构体
 
-using namespace std;
-
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-};
-```
 # Info
 
 some notes about my acm training and problems Solutions
