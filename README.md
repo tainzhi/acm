@@ -41,6 +41,7 @@ some notes about my acm training and problems Solutions
 #### 数组
 - 283 一串数字中的0移到末尾, 不改变非0相对位置; 双指针法
 - 566 改变矩阵维度
+- 485. 数组中最大连续1的个数
 
 #### 双指针
 - [Easy][167: two sum II](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
