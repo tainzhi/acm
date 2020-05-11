@@ -1,6 +1,7 @@
 ## leetcode 全站排名
 [leetcode profile](https://leetcode-cn.com/u/tainzhi/)
-- 05-09 67586
+- 05-11 63586
+- 05-09 67RR6
 - 05-08 70154
 - 05-01 77746
 - 2020-04-28 98651
@@ -14,6 +15,7 @@
 - [x]栈和队列
 - [x]哈希表
 - [x]字符串 
+- []数组 https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E6%95%B0%E7%BB%84%E4%B8%8E%E7%9F%A9%E9%98%B5.md#3-%E6%89%BE%E5%87%BA%E6%95%B0%E7%BB%84%E4%B8%AD%E6%9C%80%E9%95%BF%E7%9A%84%E8%BF%9E%E7%BB%AD-1
 
 
 ## leetcode本地调试c++
@@ -61,6 +63,10 @@ some notes about my acm training and problems Solutions
 - 堆排序 heap_sort
 
 ## 针对面试
+#### 数组
+- 283 一串数字中的0移到末尾, 不改变非0相对位置; 双指针法
+- 566 改变矩阵维度
+
 #### 双指针
 - [Easy][167: two sum II](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
 - [Easy][633: Sum of Square Numbers](https://leetcode-cn.com/problems/sum-of-square-numbers/): 使用unsigend int; Math.sqrt剪枝
@@ -147,6 +153,7 @@ some notes about my acm training and problems Solutions
 - [Hard]51. N皇后问题
 - [Hard]282. 一串数字添加+,-,*等于特定的value
 
+<<<<<<< Updated upstream
 #### 字符串
 - 242. 两个字符串中包含的字母是否相同
 - 409
@@ -155,6 +162,11 @@ some notes about my acm training and problems Solutions
 - 647 回文子串的个数
 - 696 要对字串进行分组
 
+||||||| merged common ancestors
+=======
+###
+
+>>>>>>> Stashed changes
 ### leetcode-cn
 - leetcode-cn: 1, 147, 458, 530
 - [1.Tow sum](https://leetcode-cn.com/problems/two-sum/)
