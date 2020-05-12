@@ -1,7 +1,8 @@
 ## leetcode 全站排名
 [leetcode profile](https://leetcode-cn.com/u/tainzhi/)
-- 05-11 63586
-- 05-09 67RR6
+<<<<<<< Updated upstream
+- 05-13 61627
+- 05-09 67586
 - 05-08 70154
 - 05-01 77746
 - 2020-04-28 98651
@@ -42,6 +43,7 @@ some notes about my acm training and problems Solutions
 - 283 一串数字中的0移到末尾, 不改变非0相对位置; 双指针法
 - 566 改变矩阵维度
 - 485. 数组中最大连续1的个数
+- [Medium]240 
 
 #### 双指针
 - [Easy][167: two sum II](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
