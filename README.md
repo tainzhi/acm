@@ -1,6 +1,5 @@
 ## leetcode 全站排名
 [leetcode profile](https://leetcode-cn.com/u/tainzhi/)
-<<<<<<< Updated upstream
 - 05-13 61627
 - 05-09 67586
 - 05-08 70154
@@ -16,7 +15,7 @@
 - [x]栈和队列
 - [x]哈希表
 - [x]字符串 
-- []数组 https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E6%95%B0%E7%BB%84%E4%B8%8E%E7%9F%A9%E9%98%B5.md#3-%E6%89%BE%E5%87%BA%E6%95%B0%E7%BB%84%E4%B8%AD%E6%9C%80%E9%95%BF%E7%9A%84%E8%BF%9E%E7%BB%AD-1
+- []数组 第7 https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E6%95%B0%E7%BB%84%E4%B8%8E%E7%9F%A9%E9%98%B5.md#3-%E6%89%BE%E5%87%BA%E6%95%B0%E7%BB%84%E4%B8%AD%E6%9C%80%E9%95%BF%E7%9A%84%E8%BF%9E%E7%BB%AD-1
 
 
 ## leetcode本地调试c++
@@ -131,7 +130,6 @@ some notes about my acm training and problems Solutions
 - [Hard]51. N皇后问题
 - [Hard]282. 一串数字添加+,-,*等于特定的value
 
-<<<<<<< Updated upstream
 #### 字符串
 - 242. 两个字符串中包含的字母是否相同
 - 409
@@ -139,12 +137,6 @@ some notes about my acm training and problems Solutions
 - 5 最长回文串
 - 647 回文子串的个数
 - 696 要对字串进行分组
-
-||||||| merged common ancestors
-=======
-###
-
->>>>>>> Stashed changes
 ### leetcode-cn
 - leetcode-cn: 1, 147, 458, 530
 - [1.Tow sum](https://leetcode-cn.com/problems/two-sum/)

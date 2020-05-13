@@ -23,3 +23,24 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
+class Solution {
+public:
+    vector<int> findErrorNums(vector<int>& nums) {
+        int n = nums.size() + 1;
+        int tag[n];
+        std::fill_n(tag, 0, n);
+        vector<int> result;
+        for (auto i: nums) {
+            tag[i]++;
+            if (tag[i] > 1) {
+                result.push_back(i);
+            }
+        }
+        for (int i = 1; i < n; ++i) {
+            if (tag[i] == 0) {
+                result.push_back(i);
+            }
+        }
+        return result;
+    }
+};
