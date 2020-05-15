@@ -1,5 +1,6 @@
 ## leetcode 全站排名
 [leetcode profile](https://leetcode-cn.com/u/tainzhi/)
+- 05-14 59513
 - 05-13 61627
 - 05-09 67586
 - 05-08 70154
@@ -43,6 +44,8 @@ some notes about my acm training and problems Solutions
 - 566 改变矩阵维度
 - 485. 数组中最大连续1的个数
 - [Medium]240 
+- [Medium]287
+- [Medium]667
 
 #### 双指针
 - [Easy][167: two sum II](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
