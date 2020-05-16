@@ -1,11 +1,16 @@
 ## leetcode 全站排名
 [leetcode profile](https://leetcode-cn.com/u/tainzhi/)
+- 05-16 58452
 - 05-14 59513
 - 05-13 61627
 - 05-09 67586
 - 05-08 70154
 - 05-01 77746
 - 2020-04-28 98651
+
+- Todo
+- 图: https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E5%9B%BE.md
+- 位运算
 
 ## [leetcode面试题相关](https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95.md)
 - [x] 双指针
@@ -16,8 +21,8 @@
 - [x]栈和队列
 - [x]哈希表
 - [x]字符串 
-- []数组 第7 https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E6%95%B0%E7%BB%84%E4%B8%8E%E7%9F%A9%E9%98%B5.md#3-%E6%89%BE%E5%87%BA%E6%95%B0%E7%BB%84%E4%B8%AD%E6%9C%80%E9%95%BF%E7%9A%84%E8%BF%9E%E7%BB%AD-1
-
+- [x]数组和矩阵
+- []位运算 https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E4%BD%8D%E8%BF%90%E7%AE%97.md
 
 ## leetcode本地调试c++
 - leetcode playground拷贝代码到本地`debug.cc`
@@ -46,6 +51,10 @@ some notes about my acm training and problems Solutions
 - [Medium]240 
 - [Medium]287
 - [Medium]667
+- 697
+- 766
+- [Medium]565
+- [Medium]769
 
 #### 双指针
 - [Easy][167: two sum II](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
