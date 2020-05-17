@@ -1,5 +1,6 @@
 ## leetcode 全站排名
 [leetcode profile](https://leetcode-cn.com/u/tainzhi/)
+- 05-17 55768
 - 05-16 58452
 - 05-14 59513
 - 05-13 61627
@@ -22,7 +23,7 @@
 - [x]哈希表
 - [x]字符串 
 - [x]数组和矩阵
-- []位运算 https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E4%BD%8D%E8%BF%90%E7%AE%97.md
+- []位运算 https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E4%BD%8D%E8%BF%90%E7%AE%97.md#4-%E6%95%B0%E7%BB%84%E4%B8%AD%E4%B8%8D%E9%87%8D%E5%A4%8D%E7%9A%84%E4%B8%A4%E4%B8%AA%E5%85%83%E7%B4%A0
 
 ## leetcode本地调试c++
 - leetcode playground拷贝代码到本地`debug.cc`
@@ -44,6 +45,11 @@ some notes about my acm training and problems Solutions
 - 堆排序 heap_sort
 
 ## 针对面试
+#### 位操作
+- 461
+- 136
+- 268
+
 #### 数组
 - 283 一串数字中的0移到末尾, 不改变非0相对位置; 双指针法
 - 566 改变矩阵维度

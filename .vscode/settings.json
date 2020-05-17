@@ -28,6 +28,9 @@
         "iosfwd": "cpp",
         "iterator": "cpp",
         "__functional_03": "cpp",
-        "functional": "cpp"
+        "functional": "cpp",
+        "array": "cpp",
+        "bitset": "cpp",
+        "initializer_list": "cpp"
     }
 }
