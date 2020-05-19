@@ -81,14 +81,7 @@ vector<int> stringToIntegerVector(string input) {
 }
 
 int main() {
-    string line;
-    while (getline(cin, line)) {
-        vector<int> nums = stringToIntegerVector(line);
-        
-        int ret = Solution().findShortestSubArray(nums);
-
-        string out = to_string(ret);
-        cout << out << endl;
-    }
-    return 0;
+    string s = "abcd";
+    if (s.find('d') == -1)
+        cout<<s.find('e')<<endl;
 }
