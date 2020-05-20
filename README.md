@@ -53,6 +53,7 @@ some notes about my acm training and problems Solutions
 - 190
 - 231
 - 260
+- 476
 
 #### 数组
 - 283 一串数字中的0移到末尾, 不改变非0相对位置; 双指针法
