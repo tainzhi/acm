@@ -24,7 +24,7 @@
 - [x]哈希表
 - [x]字符串 
 - [x]数组和矩阵
-- []位运算 https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E4%BD%8D%E8%BF%90%E7%AE%97.md#10-%E6%B1%82%E4%B8%80%E4%B8%AA%E6%95%B0%E7%9A%84%E8%A1%A5%E7%A0%81
+- []位运算 https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E4%BD%8D%E8%BF%90%E7%AE%97.md#12-%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%95%B0%E7%BB%84%E6%9C%80%E5%A4%A7%E4%B9%98%E7%A7%AF
 
 ## leetcode本地调试c++
 - leetcode playground拷贝代码到本地`debug.cc`
