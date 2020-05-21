@@ -17,6 +17,7 @@
 ## [leetcode面试题相关](https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95.md)
 - [x] 双指针
 - [x] 排序
+- [] 贪心思想 https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E8%B4%AA%E5%BF%83%E6%80%9D%E6%83%B3.md
 
 - [x]链表
 - [x]树
@@ -24,7 +25,7 @@
 - [x]哈希表
 - [x]字符串 
 - [x]数组和矩阵
-- []位运算 https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E4%BD%8D%E8%BF%90%E7%AE%97.md#12-%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%95%B0%E7%BB%84%E6%9C%80%E5%A4%A7%E4%B9%98%E7%A7%AF
+- [x]位运算 
 
 ## leetcode本地调试c++
 - leetcode playground拷贝代码到本地`debug.cc`
@@ -54,6 +55,8 @@ some notes about my acm training and problems Solutions
 - 231
 - 260
 - 476
+- [Medium]318
+- [Medium]338
 
 #### 数组
 - 283 一串数字中的0移到末尾, 不改变非0相对位置; 双指针法
