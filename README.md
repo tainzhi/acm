@@ -17,7 +17,7 @@
 ## [leetcode面试题相关](https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95.md)
 - [x] 双指针
 - [x] 排序
-- [] 贪心思想 https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E8%B4%AA%E5%BF%83%E6%80%9D%E6%83%B3.md
+- [] 贪心思想 https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E8%B4%AA%E5%BF%83%E6%80%9D%E6%83%B3.md#3-%E6%8A%95%E9%A3%9E%E9%95%96%E5%88%BA%E7%A0%B4%E6%B0%94%E7%90%83
 
 - [x]链表
 - [x]树
@@ -47,6 +47,12 @@ some notes about my acm training and problems Solutions
 - 堆排序 heap_sort
 
 ## 针对面试
+
+#### 贪心法
+- 455
+- [Medium]435
+
+
 #### 位操作
 - 461
 - 136
