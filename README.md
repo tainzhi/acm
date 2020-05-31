@@ -52,6 +52,7 @@ some notes about my acm training and problems Solutions
 - 455
 - [Medium]435
 - [Medium]452
+- [Medium]406
 
 
 #### 位操作
