@@ -60,6 +60,10 @@ some notes about my acm training and problems Solutions
 - [Medium]406
 - 121
 - 122
+- 605
+- 392
+- 665
+- 53
 
 
 #### 位操作

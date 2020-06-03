@@ -26,34 +26,56 @@ struct TreeNode
 
 class Solution {
 public:
-    int findMinArrowShots(vector<vector<int>>& points) {
-        std::sort(points.begin(), points.end(), [](const vector<int>& a, const vector<int>b) {
-            return a[1] < b[1];
-        });
-        int ret = 0;
-        std::fill_n(boomed, points.size(), false);
-        for (int i = 0; i < points.size(); i++){
-            if (!boomed[i]) {
-                for (int j = i +1; j < points.size(); j++){
-                    if (points[j][0] <= points[i][1]) {
-                        boomed[j] = true;
-                    }
-                }
-                boomed[i] = true;
-                ret++;
-            }
+    bool checkPossibility(vector<int>& nums) {
+        bool hasChange = false;
+        int maxBefore = INT_MIN;
+        for (int i = 1; i < nums.size(); i++) {
+            
         }
-        return ret;
+        return true;
     }
 };
 
+void trimLeftTrailingSpaces(string &input) {
+    input.erase(input.begin(), find_if(input.begin(), input.end(), [](int ch) {
+        return !isspace(ch);
+    }));
+}
+
+void trimRightTrailingSpaces(string &input) {
+    input.erase(find_if(input.rbegin(), input.rend(), [](int ch) {
+        return !isspace(ch);
+    }).base(), input.end());
+}
+
+vector<int> stringToIntegerVector(string input) {
+    vector<int> output;
+    trimLeftTrailingSpaces(input);
+    trimRightTrailingSpaces(input);
+    input = input.substr(1, input.length() - 2);
+    stringstream ss;
+    ss.str(input);
+    string item;
+    char delim = ',';
+    while (getline(ss, item, delim)) {
+        output.push_back(stoi(item));
+    }
+    return output;
+}
+
+string boolToString(bool input) {
+    return input ? "True" : "False";
+}
+
 int main() {
-    vector<vector<int>> points;
-    points.push_back({10, 16});
-    points.push_back({2, 8});
-    points.push_back({7, 12});
-    points.push_back({1, 6});
-    Solution solution ;
-    cout<<solution.findMinArrowShots(points)<<endl;
+    string line;
+    while (getline(cin, line)) {
+        vector<int> nums = stringToIntegerVector(line);
+        
+        bool ret = Solution().checkPossibility(nums);
+
+        string out = boolToString(ret);
+        cout << out << endl;
+    }
     return 0;
 }
