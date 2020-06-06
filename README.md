@@ -1,15 +1,6 @@
 ## leetcode 全站排名
 [leetcode profile](https://leetcode-cn.com/u/tainzhi/)
-<<<<<<< Updated upstream
-- 05-20 51871 100道题
-- 05-17 55768
-- 05-16 58452
-- 05-14 59513
 - 05-13 61627
-||||||| merged common ancestors
-=======
-- 05-13 61627
->>>>>>> Stashed changes
 - 05-09 67586
 - 05-08 70154
 - 05-01 77746
@@ -64,6 +55,7 @@ some notes about my acm training and problems Solutions
 - 392
 - 665
 - 53
+- [Medium]763
 
 
 #### 位操作
