@@ -31,6 +31,10 @@
         "functional": "cpp",
         "array": "cpp",
         "bitset": "cpp",
-        "initializer_list": "cpp"
+        "initializer_list": "cpp",
+        "cmath": "cpp",
+        "complex": "cpp",
+        "cstdlib": "cpp",
+        "ratio": "cpp"
     }
 }
