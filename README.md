@@ -50,6 +50,7 @@ some notes about my acm training and problems Solutions
 - 69
 - 744
 - 540
+- 278
 
 #### 贪心法
 - 455
