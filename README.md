@@ -1,5 +1,6 @@
 ## leetcode 全站排名
 [leetcode profile](https://leetcode-cn.com/u/tainzhi/)
+- 07-19 121 51567
 - 06-06 45850
 - 05-13 61627
 - 05-09 67586
