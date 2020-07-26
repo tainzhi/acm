@@ -16,15 +16,14 @@
 - [x] 双指针
 - [x] 排序
 - [x] 贪心思想 
-- [ ] 二分查找[https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE.md]
-
-- [x]链表
-- [x]树
-- [x]栈和队列
-- [x]哈希表
-- [x]字符串 
-- [x]数组和矩阵
-- [x]位运算 
+- [x] 二分查找 
+- [x] 链表
+- [x] 树
+- [x] 栈和队列
+- [x] 哈希表
+- [x] 字符串 
+- [x] 数组和矩阵
+- [x] 位运算 
 
 ## leetcode本地调试c++
 - leetcode playground拷贝代码到本地`debug.cc`
@@ -52,6 +51,7 @@ some notes about my acm training and problems Solutions
 - 744
 - 540
 - 278
+- 852[Easy]
 
 #### 贪心法
 - 455
