@@ -120,6 +120,7 @@ some notes about my acm training and problems Solutions
 - [Medium][328. Odd Even Linked List](https://leetcode-cn.com/problems/odd-even-linked-list/): 按照节点顺序的奇偶性组织到一起
 
 #### 二叉树BST(binary search tree)
+- [Easy] 700
 - [Easy][530. Minimum Absolute Difference in BST](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/): 方法1: 先中序遍历得出排序数组, 再比较获得最小的差值; 注意传输vector的引用; 方法2: 中序遍历, 保留之前的val值
 - [Medium]669. 给一个二叉搜索树和范围[L, R], 修建该树, 使得所有节点在范围内
 - [Medium]230. 二叉搜索树中第k小的数. 非递归中序遍历, 第k个退栈的即是
