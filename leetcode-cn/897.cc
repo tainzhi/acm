@@ -11,9 +11,10 @@ class Solution {
 public:
     TreeNode * cur;
     TreeNode* increasingBST(TreeNode* root) {
-        cur = new TreeNode(0);
+        auto ans = new TreeNode(0);
+        cur = ans;
         inOrder(root);
-        return cur->right;
+        return ans->right;
     }
 
     void inOrder(TreeNode* root) {
@@ -21,8 +22,8 @@ public:
             inOrder(root->left);
             cur->left = nullptr;
             cur->right = root;
-            inOrder(root->right);
             cur = root;
+            inOrder(root->right);
         }
     }
 };
