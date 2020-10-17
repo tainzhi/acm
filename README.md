@@ -9,7 +9,6 @@
 - 2020-04-28 98651
 
 - Todo
-- 分治
 - 搜索
 - 动态规划
 - 图: https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E5%9B%BE.md
@@ -17,7 +16,7 @@
 - 数学
 
 ## [leetcode面试题相关](https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95.md)
-- [x]分治
+- [x] 分治
 - [x] 双指针
 - [x] 排序
 - [x] 贪心思想 
