@@ -34,6 +34,8 @@
 - debug.cc中已经写好了常用的库和节点结构体
 
 ## 针对面试
+#### 搜索
+
 #### 排序算法
 - 冒泡排序
 - 快速排序，[912：排序数组](https://leetcode-cn.com/problems/sort-an-array/)
