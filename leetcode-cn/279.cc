@@ -1,14 +1,30 @@
 class Solution {
 public:
     int numSquares(int n) {
-        int dp[n + 1];
-        dp[0] = 0;
-        for (int i = 1; i <= n; i++) {
-            dp[i] = INT_MAX;
-            for (int j = 1; (i - j * j >= 0); j++) {
-                dp[i] = std::min(dp[i], dp[i -j * j] + 1)
-            } 
+        int visit[n + 1];
+        std::fill(visit, visit + n + 1, 0);
+        queue<int> q;
+
+        q.push(n);
+        visit[n] = 1;
+        int level = 0;
+        while (!q.empty()) {
+            int qs = q.size();
+            while (--qs >= 0) {
+                int cn = q.front();
+                q.pop();
+                if (cn == 0) {
+                    return level;
+                }
+                for (int i = 1; i * i <= cn; i++) {
+                    if (visit[cn - i * i] == 0) {
+                        q.push(cn - i * i);
+                        visit[cn - i * i] = 1;
+                    }
+                }
+            }
+            level++;
         }
-        return dp[n];
+        return level;
     }
 };
