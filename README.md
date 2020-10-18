@@ -9,7 +9,7 @@
 - 2020-04-28 98651
 
 - Todo
-- 搜索
+- 搜索 BFS 2th题目 https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E6%90%9C%E7%B4%A2.md#2-%E7%BB%84%E6%88%90%E6%95%B4%E6%95%B0%E7%9A%84%E6%9C%80%E5%B0%8F%E5%B9%B3%E6%96%B9%E6%95%B0%E6%95%B0%E9%87%8F
 - 动态规划
 - 图: https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E5%9B%BE.md
 - 位运算
@@ -35,6 +35,8 @@
 
 ## 针对面试
 #### 搜索
+- leetcode 1091
+- leetcode 279
 
 #### 排序算法
 - 冒泡排序
