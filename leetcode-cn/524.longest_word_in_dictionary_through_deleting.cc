@@ -1,21 +1,22 @@
-#include <iostream>
-#include <vector>
-
-using namespace std;
-
-string findLongestWord(string s, vector<string>& d) {
-    string result = "";
-    for (int i = 0; i < d.size(); i++) {
-        string sstr = d[i];
-        int h = 0, k = 0;
-        for (k = 0; k < s.size(); k++) {
-            if (s[k] == sstr[h]) h++;
-        }
-        
-        if (h == sstr.size()) {
-            if ((h > result.size()) ||  (h == result.size() && sstr.compare(result) < 0)) {
-                result = sstr;
+class Solution {
+public:
+    string findLongestWord(string s, vector<string>& d) {
+        int maxLen = 0;
+        string ret;
+        for (auto is: d) {
+            int ii = 0;
+            for (char c: s) {
+                if (c == is[ii]) {
+                    ii++;
+                }
+            }
+            if (ii == is.size()) {
+                if (maxLen < is.size() || (maxLen == is.size() && (ret.compare(is) > 0))) {
+                    maxLen = is.size();
+                    ret = is;
+                } else if (maxLen == is.size()) {}
             }
         }
+        return ret;
     }
-}
+};

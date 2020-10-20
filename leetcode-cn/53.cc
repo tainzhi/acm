@@ -19,15 +19,15 @@ public:
     // 如果 sum >0 ,说明当前num[i] 对结果有增益, 则 sum = sum + num[i],
     // 反之, sum <= 0, 说明当前num[i]对结果有损耗, 则 sum = num[i]
     int maxSubArray(vector<int>& nums) {
-        int sum = 0, maxRet = INT_MIN;
-        for (int i : nums) {
+        int sum = 0, max_sum = INT_MIN;
+        for (auto n: nums) {
             if (sum > 0) {
-                sum = sum + i;
+                sum = sum + n;
+                max_sum = = std::max(sum, max_sum);
             } else {
-                sum = i;
+                sum = n;
             }
-            maxRet = std::max(maxRet, sum);
         }
-        return maxRet;
+        return max_sum;
     }
 };

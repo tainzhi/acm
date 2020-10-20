@@ -35,6 +35,9 @@
         "cmath": "cpp",
         "complex": "cpp",
         "cstdlib": "cpp",
-        "ratio": "cpp"
+        "ratio": "cpp",
+        "__locale": "cpp",
+        "locale": "cpp",
+        "__string": "cpp"
     }
 }
