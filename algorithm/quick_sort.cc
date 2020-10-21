@@ -7,21 +7,21 @@ using namespace std;
 
 void quickSort(vector<int>&nums, int low, int high) {
     if (low >= high) return;
+    int pivot = low;
     int i = low, j = high + 1;
-    int pivot = nums[i];
     while (true) {
-        while (nums[++i] < pivot) {
-            if (i == high) break;
+        while (nums[++i] < nums[pivot]) {
+            if (i >= high) break;
         }
-        while (nums[--j] > pivot) {
-            if (j == low) break;
+        while (nums[--j] > nums[pivot]) {
+            if (j <= low) break;
         }
         if (i >= j) break;
         std::swap(nums[i], nums[j]);
     }
     std::swap(nums[low], nums[j]);
-    quickSort(nums, low, j-1);
-    quickSort(nums, j+1, high);
+    quickSort(nums, low, j - 1);
+    quickSort(nums, j + 1, high);
 }
 
 vector<int> quickSort(vector<int> &nums)  {

@@ -12,25 +12,27 @@ public:
     ListNode *insertionSortList(ListNode *head)
     {
         auto dummy = new ListNode(0);
-        ListNode *p = head, *q;
+        ListNode *p = head, *qs, *next_p;
+        // *qs 链 已经排好序
+        // *next_p 下一个需要排序的原链节点
         while (p != NULL)
         {
-            head = p->next;
-            q = dummy;
-            while (q->next != NULL)
+            next_p = p->next;
+            qs = dummy;
+            while (qs->next != NULL)
             {
-                if (q->next->val > p->val)
+                if (qs->next->val > p->val)
                 {
                     break;
                 }
                 else
                 {
-                    q = q->next;
+                    qs = qs->next;
                 }
             }
-            p->next = q->next;
-            q->next = p;
-            p = head;
+            p->next = qs->next;
+            qs->next = p;
+            p = next_p;
         }
         return dummy->next;
     }
