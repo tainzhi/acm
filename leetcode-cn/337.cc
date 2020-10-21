@@ -9,27 +9,30 @@
  */
 class Solution {
 public:
-    // pair.first不含该节点
-    // pair.second包含该节点
     typedef pair<int, int> dp;
+    int rob(TreeNode* root) {
+        dp ret = dfs(root);
+        return ret.second;
+    }
 
     dp dfs(TreeNode* root) {
         if (root == nullptr) return dp(0, 0);
-        dp ret(0, root->val);
+        // t.first 不包含此节点
+        // t.second 包含此节点
+        dp t(0, root->val);
+        dp leftSub(0, 0), rightSub(0, 0);
         if (root->left != nullptr) {
-            dp l = dfs(root->left);
-            ret.first += std::max(l.first, l.second);
-            ret.second += l.first;
+            leftSub = dfs(root->left);
         }
         if (root->right != nullptr) {
-            dp r = dfs(root->right);
-            ret.first += std::max(r.first, r.second);
-            ret.second += r.first;
+            rightSub = dfs(root->right);
         }
-        return dp(ret.first, std::max(ret.first, ret.second));
-    }
-    int rob(TreeNode* root) {
-        dp t = dfs(root);
-        return t.second;
+        // 不取父节点, 但是子树的节点要取
+        t.first += leftSub.second + rightSub.second;
+        // 取父节点, 但是不取子节点 
+        t.second += leftSub.first + rightSub.first;
+        // 优化: 如果取了父节点还没有不取父节点的值更大, 那么以不取父节点的值为准
+        t.second = std::max(t.first, t.second);
+        return t;
     }
 };

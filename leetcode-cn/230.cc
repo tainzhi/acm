@@ -10,17 +10,20 @@
 class Solution {
 public:
     int kthSmallest(TreeNode* root, int k) {
-        stack<TreeNode*> stack;
-        while (true) {
-            while (root != nullptr) {
-                stack.push(root);
-                root = root->left;
+        stack<TreeNode *> stack;
+        TreeNode * c = root;
+        while (c != nullptr || !stack.empty()) {
+            while (c != null) {
+                stack.push(c);
+                c = c->left;
             }
-            root = stack.top();
+            c = stack.top();
             stack.pop();
             k--;
-            if (k == 0) { return root->val;}
-            root = root->right;
+            if (k == 0) {
+                return c->val;
+            }
+            c = c->right;
         }
     }
 };
