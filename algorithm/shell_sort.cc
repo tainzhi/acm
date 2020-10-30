@@ -5,29 +5,30 @@
 
 using namespace std;
 
-vector<int> shellSort(vector<int> &nums) {
+void shellSort(vector<int> &nums) {
     int h = 1, length = nums.size();
-    while (h < length /3) {
-        h = 3 * h +1;
+    while ( h < length /3) {
+        h = h * 3 + 1;
     }
-    while (h >= 1) {
+    while ( h >= 1) {
         for (int i = h; i < length; i++) {
-            for (int j = i; j >= h && nums[j] < nums[j - h]; j -= h) {
-                std::swap(nums[j], nums[j - h]);
+            for (int j = i; (j-h)>=0; j-=h) {
+                if (nums[j] < nums[j-h]) {
+                    std::swap(nums[j-h], nums[j]);
+                }
             }
         }
         h /= 3;
     }
-    return nums;
 }
 
 int main()  {
     int num;
-    vector<int> array;
+    vector<int> array  {1, -1, 3, 0, 10, 100, 9, 8, 7, 3};
     // Ctrl+D 结束输入
-    while (cin>>num) {
-        array.push_back(num);
-    }
+    // while (cin>>num) {
+    //     array.push_back(num);
+    // }
     shellSort(array);
     for (int i = 0; i < array.size(); i++) {
         cout<<array[i]<<" ";
