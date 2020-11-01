@@ -9,18 +9,12 @@
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
-        if (head == nullptr)
-        {
-            return false;
-        }
-        ListNode *p = head, *pp = head->next;
-        while (pp != nullptr && pp->next != nullptr && p != nullptr)  {
-            if (p == pp) {
-                return true;
-            }
-            p = p->next;
-            pp = pp->next->next;
-        }
-        return false;
+		ListNode * p = head, *pp = head;
+		while (p != nullptr && pp != nullptr && pp->next != nullptr ) {
+			p = p->next;
+			pp = pp->next->next;
+			if (p == pp) return true;
+		}
+		return false;
     }
 };
