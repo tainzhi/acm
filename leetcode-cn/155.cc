@@ -1,33 +1,38 @@
+/*
+ * @lc app=leetcode.cn id=155 lang=cpp
+ *
+ * [155] 最小栈
+ */
+
+// @lc code=start
 class MinStack {
 private:
-    stack<int> data;
+    stack<int> s;
     int min = INT_MAX;
 public:
     /** initialize your data structure here. */
     MinStack() {
-        
     }
     
     void push(int x) {
         if (x <= min) {
-            data.push(min);
+            s.push(min);
             min = x;
-        } 
-        data.push(x);
+        }
+        s.push(x);
     }
     
     void pop() {
-        if (data.top() == min) {
-            data.pop();
-            min = data.top();
-            data.pop();
-        } else {
-            data.pop();
+        int top = s.top();
+        s.pop();
+        if (top == min) {
+            min = s.top();
+            s.pop();
         }
     }
     
     int top() {
-        return data.top();
+        return s.top();
     }
     
     int getMin() {
@@ -43,3 +48,5 @@ public:
  * int param_3 = obj->top();
  * int param_4 = obj->getMin();
  */
+// @lc code=end
+

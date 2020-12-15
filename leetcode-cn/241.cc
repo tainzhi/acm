@@ -1,77 +1,52 @@
-class Solution {
-public:
-    vector<int> diffWaysToCompute(string input) {
-        vector<int> result;
-        for (int i = 0; i < input.size(); i++){
-            if (input[i] == '+' || input[i] == '-' || input[i] == '*') {
-                vector<int> leftResult = diffWaysToCompute(input.substr(0, i));
-                vector<int> rightResult = diffWaysToCompute(input.substr(i+1));
-                for (auto leftNum: leftResult) {
-                    for (auto rightNum: rightResult) {
-                        result.push_back(eval(input[i], leftNum, rightNum));
-                    }
-                }
-            }
-        }
-        // 全是数字
-        int tmpsum = 0;
-        if (result.empty()) {
-            for (auto c: input) {
-                tmpsum = tmpsum * 10 + c - '0';
-            }
-            result.push_back(tmpsum);
-        }
-        return result;
-    }
+/*
+ * @lc app=leetcode.cn id=241 lang=cpp
+ *
+ * [241] 为运算表达式设计优先级
+ */
 
-    int eval(char op, int num1, int num2){
-        if (op == '+') return num1 + num2;
-        else if (op == '-') return num1 - num2;
-        // num1 * num2
-        else
-        {
-            return num1 * num2;
-        }
-        
-    }
-};
-
+// @lc code=start
 class Solution {
 private:
-    vector<int> nums;
-    vector<char> syns;
+    vector<char> sign;
+    vector<int> numbers;
 public:
     vector<int> diffWaysToCompute(string input) {
         int num = 0;
-        for (auto c: input) {
+        for (char c: input) {
             if (c >= '0' && c <= '9') {
                 num = num * 10 + c - '0';
             } else {
-                if (num != 0) {
-                    nums.push_back(num);
-                    num = 0;
-                }
-                syns.push_back(c);
+                sign.emplace_back(c);
+                numbers.emplace_back(num);
+                num = 0;
             }
         }
-        nums.push_back(num);
-        int len = nums.size();
-        vector<int> dp[len][len];
-        for (int i = 0; i < len; i++) dp[i][i].push_back(nums[i]);
-        for (int step = 1; step <= len - 1; step++) {
-            for (int i = 0, j=step; i < len && j < len; i++, j++) {
+        numbers.emplace_back(num);
+        int size = numbers.size();
+        vector<int> dp[size][size];
+        for (int i = 0; i < size; i++) {
+            dp[i][i].emplace_back(numbers[i]);
+        }
+        for (int step = 1; step < size; step++) {
+            for (int i = 0, j = step; i < size && j < size; i++, j++) {
                 for (int k = i; k < j; k++) {
-                    for (auto num1: dp[i][k]) {
-                        for (auto num2: dp[k+1][j]) {
-                            if (syns[k] == '+') dp[i][j].push_back(num1 + num2);
-                            else if (syns[k] == '-') dp[i][j].push_back(num1 - num2);
-                            else if (syns[k] == '*') dp[i][j].push_back(num1 * num2);
-
+                    for (int lvalue: dp[i][k]) {
+                        for (int rvalue: dp[k + 1][j]) {
+                            dp[i][j].emplace_back(eval(sign[k], lvalue, rvalue));
                         }
                     }
                 }
             }
         }
-        return dp[0][len - 1];
+        return dp[0][size - 1];
+    }
+
+    int eval(char ope, int lvalue, int rvalue) {
+        if (ope == '+') return lvalue + rvalue;
+        if (ope == '-') return lvalue - rvalue;
+        if (ope == '*') return lvalue * rvalue;
+        return 0;
     }
 };
+// @lc code=end
+
