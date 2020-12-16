@@ -38,6 +38,7 @@
         "ratio": "cpp",
         "__locale": "cpp",
         "locale": "cpp",
-        "__string": "cpp"
+        "__string": "cpp",
+        "__node_handle": "cpp"
     }
 }
