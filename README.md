@@ -10,7 +10,7 @@
 
 - Todo
 - 搜索 BFS 2th题目 https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E6%90%9C%E7%B4%A2.md#2-%E7%BB%84%E6%88%90%E6%95%B4%E6%95%B0%E7%9A%84%E6%9C%80%E5%B0%8F%E5%B9%B3%E6%96%B9%E6%95%B0%E6%95%B0%E9%87%8F
-- 动态规划 https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92.md#%E6%95%B0%E7%BB%84%E5%8C%BA%E9%97%B4
+- 动态规划 https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92.md#3-%E5%88%86%E5%89%B2%E6%95%B4%E6%95%B0%E6%9E%84%E6%88%90%E5%AD%97%E6%AF%8D%E5%AD%97%E7%AC%A6%E4%B8%B2
 - 图: https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E5%9B%BE.md
 - 位运算
 - 数学
