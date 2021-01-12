@@ -39,6 +39,8 @@
         "__locale": "cpp",
         "locale": "cpp",
         "__string": "cpp",
-        "__node_handle": "cpp"
+        "__node_handle": "cpp",
+        "__bit_reference": "cpp",
+        "algorithm": "cpp"
     }
 }
