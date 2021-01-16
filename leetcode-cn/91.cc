@@ -8,21 +8,27 @@
 class Solution {
 public:
     int numDecodings(string s) {
-        if (s[0] == '0') return 0;
-        int pre = 1, cur = 1;
-        for (int i = 1; i < s.size(); i++) {
-            int tmp = cur;
-            if (s[i] == '0') {
-                // dp[i] = dp[i - 2]
-                if (s[i - 1] == '1' || s[i - 1] == '2') cur = pre;
-                else return 0;
-            } else if (s[i - 1] == '1' || (s[i - 1] == '2' && s[i] >='1' && s[i] <= '6')) {
-                // dp[i] = dp[i - 1] + dp[i - 2]
-                cur = cur + pre;
+        if (s.empty() || s[0] == '0') return 0;
+        int dp[s.size() + 1];
+        memset(dp, 0 , sizeof(dp));
+        dp[0] = 1;
+        dp[1] = 1;
+        for (int i = 2; i<=s.size(); i++) {
+            if (s[i - 1] == '0') {
+                if (s[i - 2] == '1' || s[i - 2] == '2') {
+                    dp[i] = dp[i - 2];
+                } else {
+                    break;
+                }
+            } else {
+                if (s[i - 2] == '1' || (s[i - 2] == '2' && s[i - 1] <= '6')) {
+                    dp[i] = dp[i - 1] + dp[i - 2];
+                } else {
+                    dp[i] = dp[i - 1];
+                }
             }
-            pre = tmp;
         }
-        return cur;
+        return dp[s.size()];
     }
 };
 // @lc code=end

@@ -4,16 +4,16 @@ public:
     int findContentChildren(vector<int> &g, vector<int> &s)
     {
         std::sort(g.begin(), g.end());
-        std::sort(s.begin(), s.end());
-        int gi = 0, si = 0;
-        while (gi < g.size() && si < s.size()) {
-            if (g[gi] <= s[si]) {
-                // 已经满足了一个小孩
-                gi++;
+        std::sort(s.begin(), s.end);
+        int i = 0, j = 0;
+        while (i < g.size()) {
+            while (s[j] < g[i] && j < s.size()) {
+                j++;
             }
-            // 最小的饼干都不能满足, 所以要丢弃(si++)
-            si++;
+            if (g[i] <= s[j]) {
+                i++;
+            }
         }
-        return gi;
+        return i;
     }
 };
