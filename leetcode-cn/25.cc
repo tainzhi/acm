@@ -18,30 +18,36 @@
 class Solution {
 public:
     ListNode* reverseKGroup(ListNode* head, int k) {
-        ListNode * dummy = new ListNode(0, head), * pre, * p;
-        pre = dummy;
-        while (pre ->next != nullptr) {
-            p = pre;
-            for (int i = 0; i < k && p != nullptr; i++) {
-                p = p->next;
+        ListNode * hair = new ListNode(0, head), * pre, * p ,*tail;
+        pre = hair;
+        while (head != nullptr) {
+            tail = pre;
+            for (int i = 0; i < k ; i++) {
+                tail = tail->next;
+                if (tail == nullptr) {
+                    return hair->next;
+                }
             }
-            pair<ListNode *, ListNode *> newHeadTail = reverse(pre->next, p);
-            pre->next = newHeadTail.first;
-            pre= newHeadTail.second;
+            ListNode * np = tail->next;
+            tie(head, tail) = reverse(head, tail);
+            pre->next = head;
+            tail->next = np;
+            pre = tail;
+            head = tail->next;
         }
-        return dummy->next;
+        return hair->next;
     }
 
     pair<ListNode*,ListNode*> reverse(ListNode* head, ListNode* tail) {
-        ListNode * dummy = new ListNode(0, tail->next), *reTail = head;
-        ListNode * p = head, *tmp, *np = dummy;
-        while (p != tail) {
-            tmp = p->next;
-            p->next = dummy->next;
-            dummy->next = p;
-            p = tmp;
+        ListNode * pre = tail->next, *p = head;
+        while (pre != tail) {
+            ListNode * np = p->next;
+            p->next = pre;
+            pre = p;
+            p = np;
         }
-        return pair(dummy->next, reTail);
+        // return pair(tail, head);
+        return {tail, head};
     }
 };
 // @lc code=end
