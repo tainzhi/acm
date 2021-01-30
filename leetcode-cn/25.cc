@@ -18,17 +18,16 @@
 class Solution {
 public:
     ListNode* reverseKGroup(ListNode* head, int k) {
-        ListNode * hair = new ListNode(0, head), * pre, * p ,*tail;
-        pre = hair;
+        ListNode * hair = new ListNode(0, head), *tail, * pre = hair;
         while (head != nullptr) {
             tail = pre;
-            for (int i = 0; i < k ; i++) {
+            for (int i = 0; i < k; i++) {
                 tail = tail->next;
-                if (tail == nullptr) {
+                if (!tail) {
                     return hair->next;
                 }
             }
-            ListNode * np = tail->next;
+            ListNode *np = tail->next;
             tie(head, tail) = reverse(head, tail);
             pre->next = head;
             tail->next = np;
@@ -38,15 +37,14 @@ public:
         return hair->next;
     }
 
-    pair<ListNode*,ListNode*> reverse(ListNode* head, ListNode* tail) {
-        ListNode * pre = tail->next, *p = head;
+    pair<ListNode*, ListNode*> reverse(ListNode* head, ListNode* tail) {
+        ListNode* pre = tail->next, * p = head;
         while (pre != tail) {
-            ListNode * np = p->next;
+            ListNode *np = p->next;
             p->next = pre;
             pre = p;
             p = np;
         }
-        // return pair(tail, head);
         return {tail, head};
     }
 };
