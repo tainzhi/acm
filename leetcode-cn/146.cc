@@ -38,7 +38,7 @@ public:
             return hair->next->value;
         }
         return -1;
-    }
+
     
     void put(int key, int value) {
         if (buck.count(key)) {

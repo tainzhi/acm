@@ -11,7 +11,6 @@ public:
     string reverseVowels(string s)
     {
         int head = 0, tail = s.size() - 1;
-        string vowel = "aoeiuvAOEIVU";
         while (head < tail)
         {
             if (isVowel(s[head]) && isVowel(s[tail]))

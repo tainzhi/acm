@@ -112,6 +112,7 @@
 
 #### 链表指针
 - [1. Two Sum](https://leetcode-cn.com/problems/two-sum/)
+- [15. Three Sum](https://leetcode-cn.com/problems/3sum/): 排序+双指针+判重
 - [160. Intersection of Two Linked Lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/): 暴力法和双指针法: 两个指针分别从头同步遍历, 如果到达链表尾后, 切换到另一个链表头, 依然同步遍历, 如果相等, 则是交点, 否则到达末尾, 返回NULL
 - [206. Reverse Linked List (Easy)](https://leetcode-cn.com/problems/reverse-linked-list/description/)
 - [21. Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/description/)
