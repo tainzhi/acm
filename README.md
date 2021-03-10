@@ -126,6 +126,7 @@
 - [Medium][234.Palindrome Linked List](https://leetcode-cn.com/problems/palindrome-linked-list/): 通过递归函数求解
 - [Medium][725. Split Linked List in Parts](https://leetcode-cn.com/problems/split-linked-list-in-parts/): 均分链表, 任意分割后的链表长度差不超过1, 可以有null: 先均分, 再对剩余的分配到前面的段
 - [Medium][328. Odd Even Linked List](https://leetcode-cn.com/problems/odd-even-linked-list/): 按照节点顺序的奇偶性组织到一起
+- [Medium][946. 验证出栈顺序](https://leetcode-cn.com/problems/validate-stack-sequences/)
 
 #### 二叉树BST(binary search tree)
 - [Easy] 700
