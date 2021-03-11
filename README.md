@@ -1,15 +1,8 @@
 ## leetcode 全站排名
 [leetcode profile](https://leetcode-cn.com/u/tainzhi/)
 - 2021-01-12 160 60695
-- 07-19 121 51567
-- 06-06 45850
-- 05-13 61627
-- 05-09 67586
-- 05-08 70154
-- 05-01 77746
 - 2020-04-28 98651
 
-- Todo
 - leetcodetop 数组中的第k个最大元素 https://github.com/afatcoder/LeetcodeTop/blob/master/bytedance/client.md
 - 搜索 BFS 2th题目 https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E6%90%9C%E7%B4%A2.md#2-%E7%BB%84%E6%88%90%E6%95%B4%E6%95%B0%E7%9A%84%E6%9C%80%E5%B0%8F%E5%B9%B3%E6%96%B9%E6%95%B0%E6%95%B0%E9%87%8F
 - 图: https://github.com/CyC2018/CS-Notes/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3%20-%20%E5%9B%BE.md
@@ -98,7 +91,10 @@
 - [Medium]769
 
 #### 双指针
+- [1. Two Sum](https://leetcode-cn.com/problems/two-sum/)
 - [Easy][167: two sum II](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/submissions/)
+- [15. Three Sum](https://leetcode-cn.com/problems/3sum/): 排序+双指针+判重
+- [18. Four Sum][Medium](https://leetcode-cn.com/problems/4sum/): 排序+双指针+判重
 - [Easy][633: Sum of Square Numbers](https://leetcode-cn.com/problems/sum-of-square-numbers/): 使用unsigend int; Math.sqrt剪枝
 - [Easy][345: Reverse Vowels of a String](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
 - [Medidum][345: Reverse Vowels of a String](https://leetcode-cn.com/problems/reverse-vowels-of-a-string/)
@@ -111,8 +107,6 @@
 - [Medium][75. Sort Colors, 三色旗排序](https://leetcode-cn.com/problems/sort-colors/): 也可以插入排序; 当然还有三色旗的特定解法
 
 #### 链表指针
-- [1. Two Sum](https://leetcode-cn.com/problems/two-sum/)
-- [15. Three Sum](https://leetcode-cn.com/problems/3sum/): 排序+双指针+判重
 - [160. Intersection of Two Linked Lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/): 暴力法和双指针法: 两个指针分别从头同步遍历, 如果到达链表尾后, 切换到另一个链表头, 依然同步遍历, 如果相等, 则是交点, 否则到达末尾, 返回NULL
 - [206. Reverse Linked List (Easy)](https://leetcode-cn.com/problems/reverse-linked-list/description/)
 - [21. Merge Two Sorted Lists](https://leetcode-cn.com/problems/merge-two-sorted-lists/description/)
@@ -196,7 +190,6 @@
 - 647 回文子串的个数
 - 696 要对字串进行分组
 ### leetcode-cn
-- leetcode-cn: 1, 147, 458, 530
 - [1.Tow sum](https://leetcode-cn.com/problems/two-sum/)
 - [19. Remove Nth Node From End of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
 - 20. 用栈来判断一个字符串中[](){}是否成对
