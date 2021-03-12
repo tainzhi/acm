@@ -156,6 +156,7 @@
 
 #### BFS
 - 637, 671
+- 994[Medium]. 多源BFS
 
 #### Trie树
 - [Medium]208. Trie树建立
