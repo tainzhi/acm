@@ -193,6 +193,7 @@
 - 5 最长回文串
 - 647 回文子串的个数
 - 696 要对字串进行分组
+- 1163 后缀字符串, 字典序, 双指针
 ### leetcode-cn
 - [1.Tow sum](https://leetcode-cn.com/problems/two-sum/)
 - [19. Remove Nth Node From End of List](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
