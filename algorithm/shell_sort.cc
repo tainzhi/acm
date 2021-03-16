@@ -6,16 +6,14 @@
 using namespace std;
 
 void shellSort(vector<int> &nums) {
-    int h = 1, length = nums.size();
-    while ( h < length /3) {
-        h = h * 3 + 1;
+    int h = 1;
+    while (h < nums.size() / 3) {
+        h = h * 3  + 1;
     }
-    while ( h >= 1) {
-        for (int i = h; i < length; i++) {
-            for (int j = i; (j-h)>=0; j-=h) {
-                if (nums[j] < nums[j-h]) {
-                    std::swap(nums[j-h], nums[j]);
-                }
+    while (h >= 1) {
+        for (int i = 0; i < nums.size(); i += h) {
+            for (int j = i+h; j < nums.size() && nums[i] > nums[j]; j += h) {
+                std::swap(nums[i], nums[j]);
             }
         }
         h /= 3;
